@@ -1,5 +1,5 @@
 .signup-form {
-    height: 100vh; /* Set the height to 100% of the viewport height */
+    height: 100vh; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,44 +7,59 @@
     background-color: rgb(0, 0, 0);
   }
   
-  .logo0 {
-    max-width: 25%;
-    max-height: 25%;
+  .logo2 {
+    max-width: 30%;
+    max-height: 30%;
     width: auto;
     height: auto;
+    margin-bottom: 45px;
   }
   
-  .input-container {
+  .input-container2 {
     width: 100%;
-    max-width: 400px; /* Adjust the max-width as needed */
+    max-width: 350px; 
     display: flex;
     flex-direction: column;
   }
   
-  .input-box {
+  .input-box2 {
     background-color: black;
     color: white;
-    border: 1px solid white;
-    padding: 10px;
+    border: 0.5px solid white;
+    padding: 7.5px;
+    margin-bottom: 15px;
   }
 
-  .input-box::placeholder {
+  .input-box2::placeholder {
     color: white;
   }
-  
-  .button-container {
-    display: flex;
-    align-items: center;
-  }
-  
-  .link-button {
-    display: flex;
-    align-items: center;
-  }
-  
-  .link-button button {
+
+  .input-box3 {
     background-color: black;
     color: white;
+    border: 0.5px solid white;
+    padding: 7.5px;
+    margin-bottom: 45px;
+  }
+
+  .input-box3::placeholder {
+    color: white;
+  }
+  
+  .button-container2 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .link-button2 {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: bold; */
     border: none;
     padding: 0px 0px;
     cursor: pointer;
