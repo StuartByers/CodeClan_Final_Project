@@ -1,0 +1,51 @@
+.signup-form {
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .logo0 {
+    max-width: 25%;
+    max-height: 25%;
+    width: auto;
+    height: auto;
+  }
+  
+  .input-container {
+    width: 100%;
+    max-width: 400px; /* Adjust the max-width as needed */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-box {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+  }
+
+  .input-box::placeholder {
+    color: white;
+  }
+  
+  .button-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .link-button {
+    display: flex;
+    align-items: center;
+  }
+  
+  .link-button button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 0px 0px;
+    cursor: pointer;
+  }
