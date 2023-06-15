@@ -1,0 +1,1258 @@
+.main-container4975 {
+    /* background-color: violet; */
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 650px;
+    position: relative;
+  }
+  
+  .user-container4975 {
+    background-color: black;
+    height: 22.5px;
+    position: relative;
+    border: 0.5px solid black;
+  }
+  
+  .user-info-container4975 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 4px 15px;
+  }
+  
+  .user-login4975 {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12.5px;
+    margin: 0;
+  }
+  
+  .links-container4975 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .update-link4975 {
+    text-decoration: none;
+    color: white; /* Set the initial color to grey */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12.5px;
+    transition: color 0.25s; /* Add a transition property for smooth color change */
+  }
+  
+  .update-link4975:hover {
+    color: grey; /* Change the color to black when the link is hovered */
+  }
+
+  .signout-link4975 {
+    text-decoration: none;
+    color: white; /* Set the initial color to grey */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12.5px;
+    transition: color 0.25s; /* Add a transition property for smooth color change */
+  }
+  
+  .signout-link4975:hover {
+    color: grey; /* Change the color to black when the link is hovered */
+  }
+  
+  .separator4975 {
+    width: 0.5px;
+    height: 15px;
+    background-color: white;
+    margin: 0px 15px;
+  }
+  
+  .content-container4975 {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header-container4975 {
+    /* background-color: red; */
+    height: 105px;
+    margin-top: 15px;
+  }
+  
+  .controller-container4975 {
+    /* background-color: lightblue; */
+    height: 90px;
+    position: relative;
+  }
+  
+  .logo4975 {
+    display: flex;
+    max-width: 65.5px;
+    max-height: 65.5px;
+    width: auto;
+    height: auto;
+    margin: auto;
+  }
+  
+  .link-container4975 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 13px;
+  }
+  
+  .link4975 {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 30px;
+    font-size: 12.5px;
+    font-weight: bold;
+  }
+  
+  .link44975 {
+    text-decoration: none;
+    color: grey; /* Set the initial color to grey */
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 30px;
+    font-size: 12.5px;
+    font-weight: bold;
+    transition: color 0.25s; /* Add a transition property for smooth color change */
+  }
+  
+  .link44975:hover {
+    color: black; /* Change the color to black when the link is hovered */
+  }
+  
+  .link444975 {
+    text-decoration: none;
+    color: grey; /* Set the initial color to grey */
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 30px;
+    font-size: 12.5px;
+    font-weight: bold;
+    transition: color 0.25s; /* Add a transition property for smooth color change */
+  }
+  
+  .link444975:hover {
+    color: black; /* Change the color to black when the link is hovered */
+  }
+  
+  .separator-line44975 {
+    height: 1px;
+    background-color: lightgrey;
+  }
+  
+  .middle-container4975 {
+    display: flex;
+    flex-direction: column;
+    height: 467.5px;
+    width: 100%;
+    /* background-color: green; */
+  }
+  
+  .dashboard-container4975 {
+    display: flex;
+    flex-direction: column;
+    height: 52.5px;
+    width: 100%;
+    /* background-color: blue; */
+    position: relative; 
+  }
+
+  .stats-container4975 {
+    display: flex;
+    height: 22.5px;
+    width: 100%;
+    /* background-color: aqua; */
+    margin-top: 15px;
+  }
+
+  .box1234975 {
+    height: 22.5px;
+    width: 106px;
+    /* background-color: pink; */
+  }
+
+  .month-select-title4975 {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12.5px;
+    font-weight: bold;
+    align-items: center;
+    margin-top: 4.5px;
+    margin-left: 0;
+  }
+
+  .box5678975 {
+    display: flex;
+    height: 22.5px;
+    width: 600px;
+    /* background-color: red; */
+  }
+
+  .month-button4975 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 22.5px;
+    width: 45px;
+    border: 0.5px solid black;
+    background-color: white;
+    font-size: 10px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 7.5px;
+    border-radius: 11.25px;
+    transition: background-color 0.25s; /* Add a transition property for smooth color change */
+    /* transition: color 0.5s; */
+  }
+
+  .month-button4975:hover {
+    background-color: lightgrey; /* Change the color to black when the link is hovered */
+  }
+
+  /* .month-button4:hover {
+    color: white;
+  } */
+  
+  .month-button4975 > a {
+    text-decoration: none; 
+    color: black;
+  }
+
+  .month-button428975 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 22.5px;
+    width: 45px;
+    border: 0.5px solid black;
+    background-color: black;
+    font-size: 10px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 7.5px;
+    border-radius: 11.25px;
+  }
+
+  .month-button428975 > a {
+    text-decoration: none; 
+    color: white;
+  }
+  
+  .invent4975 {
+    display: flex;
+    height: 22.5px;
+    width: 135px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin-left: auto;
+  }
+  
+  .invent-title-box4975 {
+    display: flex;
+    height: 9px;
+    width: 72.5px;
+    /* background-color: magenta; */
+  }
+  
+  .invent-title4975 {
+    font-size: 12.5px;
+    font-weight: bold;
+    margin-top: -2.5px;
+  }
+  
+  .number01-box4975 {
+    display: flex;
+    height: 22.5px;
+    width: 47.5px;
+    /* background-color: magenta; */
+    margin-left: auto;
+    font-size: 30px;
+  }
+  
+  .count014975 {
+    font-size: 22.5px;
+    margin-top: -1.5px;
+    font-weight: bold;
+    margin-left: -1.5px;
+  }
+  
+  .stats-separator014975 {
+    background-color: black;
+    width: 0.5px;
+    height: 22.5px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  .value4975 {
+    display: flex;
+    height: 22.5px;
+    width: 105px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    /* margin-left: auto; */
+  }
+  
+  .value-title-box4975 {
+    display: flex;
+    height: 9px;
+    width: 41px;
+    /* background-color: magenta; */
+  }
+  
+  .value-title4975 {
+    font-size: 12.5px;
+    font-weight: bold;
+    margin-top: -2.5px;
+  }
+  
+  .number02-box4975 {
+    display: flex;
+    height: 22.5px;
+    width: 47.5px;
+    /* background-color: magenta; */
+    margin-left: auto;
+    font-size: 30px;
+  }
+  
+  .count024975 {
+    font-size: 22.5px;
+    margin-top: -1.5px;
+    font-weight: bold;
+    margin-left: -1.5px;
+  }
+  
+  .stats-separator024975 {
+    background-color: black;
+    width: 0.5px;
+    height: 22.5px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  .resold4975 {
+    display: flex;
+    height: 22.5px;
+    width: 114px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    /* margin-left: auto; */
+  }
+  
+  .resold-title-box4975 {
+    display: flex;
+    height: 9px;
+    width: 51.5px;
+    /* background-color: magenta; */
+  }
+  
+  .resold-title4975 {
+    font-size: 12.5px;
+    font-weight: bold;
+    margin-top: -2.5px;
+  }
+  
+  .number03-box4975 {
+    display: flex;
+    height: 22.5px;
+    width: 47.5px;
+    /* background-color: magenta; */
+    margin-left: auto;
+    font-size: 30px;
+  }
+  
+  .count034975 {
+    font-size: 22.5px;
+    margin-top: -1.5px;
+    font-weight: bold;
+    margin-left: -1.5px;
+  }
+  
+  .stats-separator034975 {
+    background-color: black;
+    width: 0.5px;
+    height: 22.5px;
+    margin-left: 15px;
+  }
+  
+  .profit4975 {
+    display: flex;
+    height: 22.5px;
+    width: 109px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    /* margin-left: auto; */
+    margin-left: 15px;
+  }
+  
+  .profit-title-box4975 {
+    display: flex;
+    height: 9px;
+    width: 46px;
+    /* background-color: magenta; */
+  }
+  
+  .profit-title4975 {
+    font-size: 12.5px;
+    font-weight: bold;
+    margin-top: -2.5px;
+  }
+  
+  .number04-box4975 {
+    display: flex;
+    height: 22.5px;
+    width: 47.5px;
+    /* background-color: magenta; */
+    margin-left: auto;
+    font-size: 30px;;
+  }
+  
+  .count044975 {
+    font-size: 22.5px;
+    margin-top: -1.5px;
+    font-weight: bold;
+    margin-left: -1.5px;
+  }
+  
+  .separator-line444975 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: lightgrey;
+  }
+  
+  .body-container4975 {
+    display: flex;
+    height: 400.5px;
+    width: 100%;
+    /* background-color: orange; */
+    margin-top: 15px;
+    flex-direction: column;
+  }
+
+  .date-rows-container975 {
+    height: 307.5px;
+    width: 1380px;
+    /* background-color: purple; */
+    margin-top: 46.5px;
+  }
+
+  .date-row14975 {
+    display: flex;
+    height: 37.5px;
+    width: 1380px;
+    /* background-color: blue; */
+  }
+
+  .date-box104975 {
+    height: 37.5px;
+    width: 171.42px;
+    border: 1px solid lightgrey;
+    /* background-color: green; */
+    border-radius: 18.75px; /* Half of the height */
+    overflow: hidden;
+  }
+
+  .control-container104975 {
+    display: flex;
+    height: 22.5px;
+    width: 156.42px;
+    /* background-color: pink; */
+    margin-left: 7.5px;
+    margin-top: 7.5px;
+  }
+
+  .day-num-box104975 {
+    width: 48.5px;
+    height: 22.5px;
+    /* background-color: aqua; */
+  }
+
+  .day-num104975 {
+    font-size: 12.5px;
+    margin-top: 4px;
+    font-weight: bold;
+    margin-left: -1px;
+  }
+
+  .cal-add-button104975 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 0.5px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 55.5px;
+  }
+  
+  .cal-add-button104975 > a {
+    text-decoration: none; /* Remove underline */
+    margin-top: 0.5px;
+  }
+
+  .cal-sub-button104975 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 0.5px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 7.5px;
+  }
+  
+  .cal-sub-button104975 > a {
+    text-decoration: none; /* Remove underline */
+    margin-bottom: 2.5px;
+  }
+
+  .date-box14975 {
+    height: 37.5px;
+    width: 171.42px;
+    border: 1px solid lightgrey;
+    /* background-color: green; */
+    border-radius: 18.75px; /* Half of the height */
+    overflow: hidden;
+    margin-left: 30px;
+  }
+
+  .control-container14975 {
+    display: flex;
+    height: 22.5px;
+    width: 156.42px;
+    /* background-color: pink; */
+    margin-left: 7.5px;
+    margin-top: 7.5px;
+  }
+
+  .day-num-box14975 {
+    width: 48.5px;
+    height: 22.5px;
+    /* background-color: aqua; */
+  }
+
+  .day-num14975 {
+    font-size: 12.5px;
+    margin-top: 4px;
+    font-weight: bold;
+    margin-left: -1px;
+  }
+
+  .cal-add-button14975 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 0.5px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 55.5px;
+  }
+  
+  .cal-add-button14975 > a {
+    text-decoration: none; /* Remove underline */
+    margin-top: 0.5px;
+  }
+
+  .cal-sub-button14975 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 0.5px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 7.5px;
+  }
+  
+  .cal-sub-button14975 > a {
+    text-decoration: none; /* Remove underline */
+    margin-bottom: 2.5px;
+  }
+
+  .date-row24975 {
+    display: flex;
+    height: 37.5px;
+    width: 1380px;
+    /* background-color: blue; */
+    margin-top: 30px;
+  }
+
+  .date-box024975 {
+    height: 37.5px;
+    width: 171.42px;
+    border: 1px solid lightgrey;
+    /* background-color: green; */
+    border-radius: 18.75px; /* Half of the height */
+    overflow: hidden;
+  }
+
+  .control-container024975 {
+    display: flex;
+    height: 22.5px;
+    width: 156.42px;
+    /* background-color: pink; */
+    margin-left: 7.5px;
+    margin-top: 7.5px;
+  }
+
+  .day-num-box024975 {
+    width: 48.5px;
+    height: 22.5px;
+    /* background-color: aqua; */
+  }
+
+  .day-num024975 {
+    font-size: 12.5px;
+    margin-top: 4px;
+    font-weight: bold;
+    margin-left: -1px;
+  }
+
+  .cal-add-button024975 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 0.5px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 55.5px;
+  }
+  
+  .cal-add-button024975 > a {
+    text-decoration: none; /* Remove underline */
+    margin-top: 0.5px;
+  }
+
+  .cal-sub-button024975 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 0.5px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 7.5px;
+  }
+  
+  .cal-sub-button024975 > a {
+    text-decoration: none; /* Remove underline */
+    margin-bottom: 2.5px;
+  }
+
+  .date-box24975 {
+    height: 37.5px;
+    width: 171.42px;
+    border: 1px solid lightgrey;
+    /* background-color: green; */
+    border-radius: 18.75px; /* Half of the height */
+    overflow: hidden;
+    margin-left: 30px;
+  }
+
+  .control-container24975 {
+    display: flex;
+    height: 22.5px;
+    width: 156.42px;
+    /* background-color: pink; */
+    margin-left: 7.5px;
+    margin-top: 7.5px;
+  }
+
+  .day-num-box24975 {
+    width: 60.5px;
+    height: 22.5px;
+    /* background-color: aqua; */
+  }
+
+  .day-num24975 {
+    font-size: 12.5px;
+    margin-top: 4px;
+    font-weight: bold;
+    margin-left: -1px;
+  }
+
+  .cal-add-button24975 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 0.5px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 43.5px;
+  }
+  
+  .cal-add-button24975 > a {
+    text-decoration: none; /* Remove underline */
+    margin-top: 0.5px;
+  }
+
+  .cal-sub-button24975 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 0.5px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 7.5px;
+  }
+  
+  .cal-sub-button24975 > a {
+    text-decoration: none; /* Remove underline */
+    margin-bottom: 2.5px;
+  }
+
+  .date-row34975 {
+    display: flex;
+    height: 37.5px;
+    width: 1380px;
+    /* background-color: blue; */
+    margin-top: 30px;
+  }
+
+  .date-box034975 {
+    height: 37.5px;
+    width: 171.42px;
+    border: 1px solid lightgrey;
+    /* background-color: green; */
+    border-radius: 18.75px; /* Half of the height */
+    overflow: hidden;
+  }
+
+  .control-container034975 {
+    display: flex;
+    height: 22.5px;
+    width: 156.42px;
+    /* background-color: pink; */
+    margin-left: 7.5px;
+    margin-top: 7.5px;
+  }
+
+  .day-num-box034975 {
+    width: 60.5px;
+    height: 22.5px;
+    /* background-color: aqua; */
+  }
+
+  .day-num034975 {
+    font-size: 12.5px;
+    margin-top: 4px;
+    font-weight: bold;
+    margin-left: -1px;
+  }
+
+  .cal-add-button034975 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 0.5px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 43.5px;
+  }
+  
+  .cal-add-button034975 > a {
+    text-decoration: none; /* Remove underline */
+    margin-top: 0.5px;
+  }
+
+  .cal-sub-button034975 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 0.5px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 7.5px;
+  }
+  
+  .cal-sub-button034975 > a {
+    text-decoration: none; /* Remove underline */
+    margin-bottom: 2.5px;
+  }
+
+  .date-box34975 {
+    height: 37.5px;
+    width: 171.42px;
+    border: 1px solid lightgrey;
+    /* background-color: green; */
+    border-radius: 18.75px; /* Half of the height */
+    overflow: hidden;
+    margin-left: 30px;
+  }
+
+  .control-container34975 {
+    display: flex;
+    height: 22.5px;
+    width: 156.42px;
+    /* background-color: pink; */
+    margin-left: 7.5px;
+    margin-top: 7.5px;
+  }
+
+  .day-num-box034975 {
+    width: 60.5px;
+    height: 22.5px;
+    /* background-color: aqua; */
+  }
+
+  .day-num34975 {
+    font-size: 12.5px;
+    margin-top: 4px;
+    font-weight: bold;
+    margin-left: -1px;
+  }
+
+  .cal-add-button34975 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 0.5px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 43.5px;
+  }
+  
+  .cal-add-button34975 > a {
+    text-decoration: none; /* Remove underline */
+    margin-top: 0.5px;
+  }
+
+  .cal-sub-button34975 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 0.5px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 7.5px;
+  }
+  
+  .cal-sub-button34975 > a {
+    text-decoration: none; /* Remove underline */
+    margin-bottom: 2.5px;
+  }
+
+  .date-row44975 {
+    display: flex;
+    height: 37.5px;
+    width: 1380px;
+    /* background-color: blue; */
+    margin-top: 30px;
+  }
+
+  .date-box044975 {
+    height: 37.5px;
+    width: 171.42px;
+    border: 1px solid lightgrey;
+    /* background-color: green; */
+    border-radius: 18.75px; /* Half of the height */
+    overflow: hidden;
+  }
+
+  .control-container044975 {
+    display: flex;
+    height: 22.5px;
+    width: 156.42px;
+    /* background-color: pink; */
+    margin-left: 7.5px;
+    margin-top: 7.5px;
+  }
+
+  .day-num-box044975 {
+    width: 60.5px;
+    height: 22.5px;
+    /* background-color: aqua; */
+  }
+
+  .day-num044975 {
+    font-size: 12.5px;
+    margin-top: 4px;
+    font-weight: bold;
+    margin-left: -1px;
+  }
+
+  .cal-add-button044975 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 0.5px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 43.5px;
+  }
+  
+  .cal-add-button044975 > a {
+    text-decoration: none; /* Remove underline */
+    margin-top: 0.5px;
+  }
+
+  .cal-sub-button044975 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 0.5px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 7.5px;
+  }
+  
+  .cal-sub-button044975 > a {
+    text-decoration: none; /* Remove underline */
+    margin-bottom: 2.5px;
+  }
+
+  .date-box44975 {
+    height: 37.5px;
+    width: 171.42px;
+    border: 1px solid lightgrey;
+    /* background-color: green; */
+    border-radius: 18.75px; /* Half of the height */
+    overflow: hidden;
+    margin-left: 30px;
+  }
+
+  .control-container44975 {
+    display: flex;
+    height: 22.5px;
+    width: 156.42px;
+    /* background-color: pink; */
+    margin-left: 7.5px;
+    margin-top: 7.5px;
+  }
+
+  .day-num-box44975 {
+    width: 60.5px;
+    height: 22.5px;
+    /* background-color: aqua; */
+  }
+
+  .day-num44975 {
+    font-size: 12.5px;
+    margin-top: 4px;
+    font-weight: bold;
+    margin-left: -1px;
+  }
+
+  .cal-add-button44975 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 0.5px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 43.5px;
+  }
+  
+  .cal-add-button44975 > a {
+    text-decoration: none; /* Remove underline */
+    margin-top: 0.5px;
+  }
+
+  .cal-sub-button44975 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 0.5px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 7.5px;
+  }
+  
+  .cal-sub-button44975 > a {
+    text-decoration: none; /* Remove underline */
+    margin-bottom: 2.5px;
+  }
+
+  .date-row54975 {
+    display: flex;
+    height: 37.5px;
+    width: 1380px;
+    /* background-color: blue; */
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .date-box054975 {
+    height: 37.5px;
+    width: 171.42px;
+    border: 1px solid lightgrey;
+    /* background-color: green; */
+    border-radius: 18.75px; /* Half of the height */
+    overflow: hidden;
+  }
+
+  .control-container054975 {
+    display: flex;
+    height: 22.5px;
+    width: 156.42px;
+    /* background-color: pink; */
+    margin-left: 7.5px;
+    margin-top: 7.5px;
+  }
+
+  .day-num-box054975 {
+    width: 60.5px;
+    height: 22.5px;
+    /* background-color: aqua; */
+  }
+
+  .day-num054975 {
+    font-size: 12.5px;
+    margin-top: 4px;
+    font-weight: bold;
+    margin-left: -1px;
+  }
+
+  .cal-add-button054975 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 0.5px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 43.5px;
+  }
+  
+  .cal-add-button054975 > a {
+    text-decoration: none; /* Remove underline */
+    margin-top: 0.5px;
+  }
+
+  .cal-sub-button054975 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 0.5px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 7.5px;
+  }
+  
+  .cal-sub-button054975 > a {
+    text-decoration: none; /* Remove underline */
+    margin-bottom: 2.5px;
+  }
+
+  .date-box54975 {
+    height: 37.5px;
+    width: 171.42px;
+    /* background-color: green; */
+    border: 1px solid lightgrey;
+    border-radius: 18.75px; /* Half of the height */
+    overflow: hidden;
+    margin-left: 30px;
+  }
+
+  .control-container54975 {
+    display: flex;
+    height: 22.5px;
+    width: 156.42px;
+    /* background-color: pink; */
+    margin-left: 7.5px;
+    margin-top: 7.5px;
+  }
+
+  .day-num-box54975 {
+    width: 60.5px;
+    height: 22.5px;
+    /* background-color: aqua; */
+  }
+
+  .day-num54975 {
+    font-size: 12.5px;
+    margin-top: 4px;
+    font-weight: bold;
+    margin-left: -1px;
+  }
+
+  .cal-add-button54975 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 0.5px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 43.5px;
+  }
+  
+  .cal-add-button54975 > a {
+    text-decoration: none; /* Remove underline */
+    margin-top: 0.5px;
+  }
+
+  .cal-sub-button54975 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 0.5px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 7.5px;
+  }
+  
+  .cal-sub-button54975 > a {
+    text-decoration: none; /* Remove underline */
+    margin-bottom: 2.5px;
+  }
+  
+  .footer-container4975 {
+    /* background-color: pink; */
+    height: 37.5px;
+  }
+  
+  .retailor-container4975 {
+    height: 22.5px;
+    /* background-color: aqua; */
+    margin-top: 15px;
+    /* border: 0.5px solid black; */
+  }
+  
+  .nike4975 {
+    height: 15px;
+    margin-right: 15px;
+    margin-top: 4px;
+  }
+  
+  .adidas4975 {
+    height: 15px;
+    margin-right: 15px;
+    /* margin-left: 15px; */
+    margin-top: 3.5px;
+  }
+  
+  .jordan4975 {
+    height: 15px;
+    margin-right: 15px;
+    margin-top: 3.5px;
+  }
+  
+  .yeezy4975 {
+    height: 15px;
+    margin-right: 15px;
+    margin-top: 3.5px;
+  }
+  
+  .new-balance4975 {
+    height: 15px;
+    margin-top: 7.5px;
+  } 
+  
+  .stockx4975 {
+    width: auto;
+    height: 15px;
+    position: absolute; 
+    right: 0;
+    margin-top: 7.5px;
+    /* margin-right: 15px; */
+  }

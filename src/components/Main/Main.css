@@ -1,56 +1,900 @@
-.header-bar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px;
-  }
-  
-  .logo3 {
-    max-width: 75px;
-    max-height: 75px;
-    width: auto;
-    height: auto;
-    margin-top: 30px;
-    margin-left: 30px;
-  }
-  
-  .link-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-  }
-  
-  .link1 {
-    text-decoration: none;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-right: 15px;
-    font-size: 15px;
-  }
-  
-  .link2 {
-    margin-right: 30px;
-    text-decoration: none;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    /* text-align: center;
-    text-decoration: none;
-    background-color: white;
-    color: black;
-    font-family: Arial;
-    border: 2px solid black;
-    padding-top: 2.5px;
-    padding-bottom: 2.5px;
-    width: 100px; */
-  }
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-  .stockx {
-    max-width: 100px;
-    max-height: 100px;
-    width: auto;
-    height: auto;
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-  }
+.main-container3 {
+  /* background-color: violet; */
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  height: 650px;
+  position: relative;
+}
+
+.user-container3 {
+  background-color: black;
+  height: 22.5px;
+  position: relative;
+  border: 0.5px solid black;
+}
+
+.user-info-container3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  padding: 4px 15px;
+}
+
+.user-login3 {
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12.5px;
+  margin: 0;
+}
+
+.links-container3 {
+  display: flex;
+  align-items: center;
+}
+
+.update-link3 {
+  text-decoration: none;
+  color: white; /* Set the initial color to grey */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12.5px;
+  transition: color 0.25s; /* Add a transition property for smooth color change */
+}
+
+.update-link3:hover {
+  color: lightgrey; /* Change the color to black when the link is hovered */
+}
+
+.signout-link3 {
+  text-decoration: none;
+  color: white; /* Set the initial color to grey */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12.5px;
+  transition: color 0.25s; /* Add a transition property for smooth color change */
+}
+
+.signout-link3:hover {
+  color: lightgrey; /* Change the color to black when the link is hovered */
+}
+
+.separator3 {
+  width: 0.5px;
+  height: 15px;
+  background-color: white;
+  margin: 0px 15px;
+}
+
+.content-container3 {
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+}
+
+.header-container3 {
+  /* background-color: red; */
+  height: 105px;
+  margin-top: 15px;
+}
+
+.controller-container3 {
+  /* background-color: lightblue; */
+  height: 90px;
+  position: relative;
+}
+
+.logo3 {
+  display: flex;
+  max-width: 65.5px;
+  max-height: 65.5px;
+  width: auto;
+  height: auto;
+  margin: auto;
+}
+
+.link-container3 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-top: 13px;
+}
+
+.link3 {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 30px;
+  font-size: 12.5px;
+  font-weight: bold;
+}
+
+.link33 {
+  text-decoration: none;
+  color: lightgrey; /* Set the initial color to grey */
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 30px;
+  font-size: 12.5px;
+  font-weight: bold;
+  transition: color 0.25s; /* Add a transition property for smooth color change */
+}
+
+.link33:hover {
+  color: black; /* Change the color to black when the link is hovered */
+}
+
+.link333 {
+  text-decoration: none;
+  color: lightgrey; /* Set the initial color to grey */
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 30px;
+  font-size: 12.5px;
+  font-weight: bold;
+  transition: color 0.25s; /* Add a transition property for smooth color change */
+}
+
+.link333:hover {
+  color: black; /* Change the color to black when the link is hovered */
+}
+
+.separator-line33 {
+  height: 1px;
+  background-color: lightgrey;
+}
+
+.middle-container3 {
+  display: flex;
+  flex-direction: column;
+  height: 467.5px;
+  width: 100%;
+  /* background-color: green; */
+}
+
+.dashboard-container3 {
+  display: flex;
+  flex-direction: column;
+  height: 52.5px;
+  width: 100%;
+  /* background-color: blue; */
+  position: relative; 
+}
+
+.stats-container3 {
+  display: flex;
+  height: 22.5px;
+  width: 100%;
+  /* background-color: aqua; */
+  margin-top: 15px;
+}
+
+.invent3 {
+  display: flex;
+  height: 22.5px;
+  width: 135px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  margin-left: auto;
+}
+
+.invent-title-box3 {
+  display: flex;
+  height: 9px;
+  width: 72.5px;
+  /* background-color: magenta; */
+}
+
+.invent-title3 {
+  font-size: 12.5px;
+  font-weight: bold;
+  margin-top: -2.5px;
+}
+
+.number01-box3 {
+  display: flex;
+  height: 22.5px;
+  width: 47.5px;
+  /* background-color: magenta; */
+  margin-left: auto;
+  font-size: 30px;
+}
+
+.count013 {
+  font-size: 22.5px;
+  margin-top: -1.5px;
+  font-weight: bold;
+  margin-left: -1.5px;
+}
+
+.stats-separator013 {
+  background-color: black;
+  width: 0.5px;
+  height: 22.5px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.value3 {
+  display: flex;
+  height: 22.5px;
+  width: 105px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  /* margin-left: auto; */
+}
+
+.value-title-box3 {
+  display: flex;
+  height: 9px;
+  width: 41px;
+  /* background-color: magenta; */
+}
+
+.value-title3 {
+  font-size: 12.5px;
+  font-weight: bold;
+  margin-top: -2.5px;
+}
+
+.number02-box3 {
+  display: flex;
+  height: 22.5px;
+  width: 47.5px;
+  /* background-color: magenta; */
+  margin-left: auto;
+  font-size: 30px;
+}
+
+.count023 {
+  font-size: 22.5px;
+  margin-top: -1.5px;
+  font-weight: bold;
+  margin-left: -1.5px;
+}
+
+.stats-separator023 {
+  background-color: black;
+  width: 0.5px;
+  height: 22.5px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.resold3 {
+  display: flex;
+  height: 22.5px;
+  width: 114px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  /* margin-left: auto; */
+}
+
+.resold-title-box3 {
+  display: flex;
+  height: 9px;
+  width: 51.5px;
+  /* background-color: magenta; */
+}
+
+.resold-title3 {
+  font-size: 12.5px;
+  font-weight: bold;
+  margin-top: -2.5px;
+}
+
+.number03-box3 {
+  display: flex;
+  height: 22.5px;
+  width: 47.5px;
+  /* background-color: magenta; */
+  margin-left: auto;
+  font-size: 30px;
+}
+
+.count033 {
+  font-size: 22.5px;
+  margin-top: -1.5px;
+  font-weight: bold;
+  margin-left: -1.5px;
+}
+
+.stats-separator033 {
+  background-color: black;
+  width: 0.5px;
+  height: 22.5px;
+  margin-left: 15px;
+}
+
+.profit3 {
+  display: flex;
+  height: 22.5px;
+  width: 109px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  /* margin-left: auto; */
+  margin-left: 15px;
+}
+
+.profit-title-box3 {
+  display: flex;
+  height: 9px;
+  width: 46px;
+  /* background-color: magenta; */
+}
+
+.profit-title3 {
+  font-size: 12.5px;
+  font-weight: bold;
+  margin-top: -2.5px;
+}
+
+.number04-box3 {
+  display: flex;
+  height: 22.5px;
+  width: 47.5px;
+  /* background-color: magenta; */
+  margin-left: auto;
+  font-size: 30px;;
+}
+
+.count043 {
+  font-size: 22.5px;
+  margin-top: -1.5px;
+  font-weight: bold;
+  margin-left: -1.5px;
+}
+
+.separator-line333 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: lightgrey;
+}
+
+.body-container3 {
+  display: flex;
+  height: 400.5px;
+  width: 100%;
+  /* background-color: orange; */
+  margin-top: 15px;
+}
+
+.box3333 {
+  display: flex;
+  height: 400.5px;
+  width: 1061.5px;
+  /* background-color: purple; */
+}
+
+.news-column1 {
+  display: flex;
+  height: 400.5px;
+  width: 333.6px;
+  /* background-color: cyan; */
+  flex-direction: column;
+}
+
+.news-block1 {
+  display: flex;
+  flex-direction: column;
+  height: 113.5px;
+  width: 333.6px;
+  background-image: url("News/red.png");
+  background-size: contain;
+  align-items: center;
+}
+
+.news-logo1 {
+  height: 83.5px;
+  width: 101px;
+  background-image: url("News/nice.png");
+  background-size: contain;
+  margin-top: 15px;
+  
+}
+
+.news-block12 {
+  display: flex;
+  flex-direction: column;
+  height: 113.5px;
+  width: 333.6px;
+  background-color: white;
+  margin-top: 30px;
+  align-items: center;
+  border: 0.5px solid black;
+}
+
+.news-logo12 {
+  height: 83.5px;
+  width: 56px;
+  background-image: url("News/snk.png");
+  background-size: contain;
+  margin-top: 15px;
+}
+
+.retailor-row1 {
+  display: flex;
+  height: 113.5px;
+  width: 333.6px;
+  margin-top: 30px;
+  /* background-color: blue; */
+}
+
+.retailor-block1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 113.5px;
+  width: 151.8px;
+  background-color: black;
+}
+
+.retailor-block12 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 113.5px;
+  width: 151.8px;
+  background-color: white;
+  margin-left: 30px;
+  border: 0.5px solid black;
+}
+
+.retailor-logo117 {
+  height: 38.5px;
+  width: 105px;
+  background-image: url("Shops/end.png");
+  background-size: contain;
+}
+
+.retailor-logo127 {
+  height: 38.5px;
+  width: 103.5px;
+  background-image: url("Shops/size.png");
+  background-size: contain;
+}
+
+.news-column2 {
+  height: 400.5px;
+  width: 333.6px;
+  /* background-color: orange; */
+  margin-left: 30px;
+}
+
+.news-block2 {
+  display: flex;
+  flex-direction: column;
+  height: 113.5px;
+  width: 333.6px;
+  background-color: white;
+  align-items: center;
+  border: 0.5px solid black;
+}
+
+.news-logo2 {
+  height: 83.5px;
+  width: 72.5px;
+  background-image: url("News/fsr.png");
+  background-size: contain;
+  margin-top: 15px;
+}
+
+.news-block22 {
+  display: flex;
+  flex-direction: column;
+  height: 113.5px;
+  width: 333.6px;
+  background-color: black;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.news-logo22 {
+  height: 83.5px;
+  width: 78.3px;
+  background-image: url("News/complex.png");
+  background-size: contain;
+  margin-top: 15px;
+}
+
+.retailor-row2 {
+  display: flex;
+  height: 113.5px;
+  width: 333.6px;
+  margin-top: 30px;
+  /* background-color: blue; */
+}
+
+.retailor-block2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 113.5px;
+  width: 151.8px;
+  background-image: url("Shops/turq.png");
+  background-size: contain;
+}
+
+.retailor-block22 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 113.5px;
+  width: 151.8px;
+  background-color: white;
+  margin-left: 30px;
+  border: 0.5px solid black;
+}
+
+.retailor-logo217 {
+  height: 53.5px;
+  width: 98.5px;
+  background-image: url("Shops/sns.png");
+  background-size: contain;
+}
+
+.retailor-logo227 {
+  height: 53.5px;
+  width: 44.5px;
+  background-image: url("Shops/patrol.png");
+  background-size: contain;
+}
+
+
+.news-column3 {
+  height: 400.5px;
+  width: 333.6px;
+  /* background-color: yellow; */
+  margin-left: 30px;
+}
+
+.news-block3 {
+  display: flex;
+  flex-direction: column;
+  height: 113.5px;
+  width: 333.6px;
+  background-image: url("News/grey.png");
+  background-size: contain;
+  align-items: center;
+}
+
+.news-logo3 {
+  height: 83.5px;
+  width: 111.5px;
+  background-image: url("News/sole.png");
+  background-size: contain;
+  margin-top: 15px;
+}
+
+.news-block33 {
+  display: flex;
+  flex-direction: column;
+  height: 113.5px;
+  width: 333.6px;
+  background-color: white;
+  margin-top: 30px;
+  align-items: center;
+  border: 0.5px solid black;
+}
+
+.news-logo33 {
+  height: 83.5px;
+  width: 103px;
+  background-image: url("News/files.png");
+  background-size: contain;
+  margin-top: 15px;
+}
+
+.retailor-row3 {
+  display: flex;
+  height: 113.5px;
+  width: 333.6px;
+  margin-top: 30px;
+  /* background-color: blue; */
+}
+
+.retailor-block3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 113.5px;
+  width: 151.8px;
+  background-color: black;
+}
+
+.retailor-block32 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 113.5px;
+  width: 151.8px;
+  background-image: url("Shops/offred.png");
+  background-size: contain;
+  margin-left: 30px;
+}
+
+.retailor-logo317 {
+  height: 53.5px;
+  width: 53.5px;
+  background-image: url("Shops/kith.png");
+  background-size: contain;
+}
+
+.retailor-logo327 {
+  height: 53.5px;
+  width: 65.5px;
+  background-image: url("Shops/offspring.png");
+  background-size: contain;
+}
+
+.box2333 {
+  display: flex;
+  height: 400.5px;
+  width: 60px;
+  /* background-color: red; */
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.dec-title-words3 {
+  font-size: 21px;
+  font-weight: bold;
+  color: lightgrey;
+  transform: rotate(-90deg);
+  margin-top: 357px;
+  margin-left: 14px;
+  
+}
+
+.box1333 {
+  height: 400.5px;
+  width: 1px;
+  background-color: lightgrey;
+}
+
+.box0333 {
+  height: 400.5px;
+  width: 15px;
+  /* background-color: cyan; */
+}
+
+.box5678 {
+  height: 400.5px;
+  width: 15px;
+  /* background-color: red; */
+}
+
+.sneaker-month-container3 {
+  display: flex;
+  height: 400.5px;
+  width: 243.6px;
+  background-color: white;
+  flex-direction: column;
+}
+
+.sneaker-month013 {
+  display: flex;
+  height: 74.1px;
+  width: 243.6px;
+  /* background-color: pink; */
+}
+
+.sneaker-month-pic13 {
+  height: 74.1px;
+  width: 74.1px;
+  background-image: url("Sneakers/aj1.png");
+  background-size: contain;
+}
+
+.sneaker-month-info13 {
+  height: 74.1px;
+  width: 153.5px;
+  /* background-color: yellow; */
+  margin-left: 15px;
+}
+
+.sneaker-release-model13 {
+  font-size: 12.5px;
+  font-weight: bold;
+  margin-top: 11px;
+}
+
+.sneaker-release-info13 {
+  font-size: 10px;
+}
+
+.sneaker-month023 {
+  display: flex;
+  height: 74.1px;
+  width: 243.6px;
+  /* background-color: pink; */
+  margin-top: 7.5px;
+}
+
+.sneaker-month-pic23 {
+  height: 74.1px;
+  width: 74.1px;
+  background-image: url("Sneakers/wave.png");
+  background-size: contain;
+}
+
+.sneaker-month-info23 {
+  height: 74.1px;
+  width: 153.5px;
+  /* background-color: yellow; */
+  margin-left: 15px;
+}
+
+.sneaker-release-model23 {
+  font-size: 12.5px;
+  font-weight: bold;
+  margin-top: 11px;
+}
+
+.sneaker-release-info23 {
+  font-size: 10px;
+}
+
+.sneaker-month033 {
+  display: flex;
+  height: 74.1px;
+  width: 243.6px;
+  /* background-color: pink; */
+  margin-top: 7.5px;
+}
+
+.sneaker-month-pic33 {
+  height: 74.1px;
+  width: 74.1px;
+  background-image: url("Sneakers/newb.png");
+  background-size: contain;
+}
+
+.sneaker-month-info33 {
+  height: 74.1px;
+  width: 153.5px;
+  /* background-color: yellow; */
+  margin-left: 15px;
+}
+
+.sneaker-release-model33 {
+  font-size: 12.5px;
+  font-weight: bold;
+  margin-top: 11px;
+}
+
+.sneaker-release-info33 {
+  font-size: 10px;
+}
+
+.sneaker-month043 {
+  display: flex;
+  height: 74.1px;
+  width: 243.6px;
+  /* background-color: pink; */
+  margin-top: 7.5px;
+}
+
+.sneaker-month-pic43 {
+  height: 74.1px;
+  width: 74.1px;
+  background-image: url("Sneakers/lobster.png");
+  background-size: contain;
+}
+
+.sneaker-month-info43 {
+  height: 74.1px;
+  width: 153.5px;
+  /* background-color: yellow; */
+  margin-left: 15px;
+}
+
+.sneaker-release-model43 {
+  font-size: 12.5px;
+  font-weight: bold;
+  margin-top: 11px;
+}
+
+.sneaker-release-info43 {
+  font-size: 10px;
+}
+
+.sneaker-month053 {
+  display: flex;
+  height: 74.1px;
+  width: 243.6px;
+  /* background-color: pink; */
+  margin-top: 7.5px;
+}
+
+.sneaker-month-pic53 {
+  height: 74.1px;
+  width: 74.1px;
+  background-image: url("Sneakers/craft.png");
+  background-size: contain;
+}
+
+.sneaker-month-info53 {
+  height: 74.1px;
+  width: 153.5px;
+  /* background-color: yellow; */
+  margin-left: 15px;
+}
+
+.sneaker-release-model53 {
+  font-size: 12.5px;
+  font-weight: bold;
+  margin-top: 11px;
+}
+
+.sneaker-release-info53 {
+  font-size: 10px;
+}
+
+.footer-container3 {
+  /* background-color: pink; */
+  height: 37.5px;
+}
+
+.retailor-container3 {
+  height: 22.5px;
+  /* background-color: blue; */
+  margin-top: 15px;
+  /* border: 0.5px solid black; */
+}
+
+.nike3 {
+  height: 15px;
+  margin-right: 15px;
+  margin-top: 4px;
+}
+
+.adidas3 {
+  height: 15px;
+  margin-right: 15px;
+  /* margin-left: 15px; */
+  margin-top: 3.5px;
+}
+
+.jordan3 {
+  height: 15px;
+  margin-right: 15px;
+  margin-top: 3.5px;
+}
+
+.yeezy3 {
+  height: 15px;
+  margin-right: 15px;
+  margin-top: 3.5px;
+}
+
+.new-balance3 {
+  height: 15px;
+  margin-top: 7.5px;
+} 
+
+.stockx3 {
+  width: auto;
+  height: 15px;
+  position: absolute; 
+  right: 0;
+  margin-top: 7.5px;
+  /* margin-right: 15px; */
+}

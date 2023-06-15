@@ -1,0 +1,611 @@
+.main-container5616i {
+  /* background-color: violet; */
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  height: 650px;
+  position: relative;
+}
+
+.user-container5616i {
+  background-color: black;
+  height: 22.5px;
+  position: relative;
+  border: 0.5px solid black;
+}
+
+.user-info-container5616i {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  padding: 4px 15px;
+}
+
+.user-login5616i {
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12.5px;
+  margin: 0;
+}
+
+.links-container5616i {
+  display: flex;
+  align-items: center;
+}
+
+.update-link5616i {
+  text-decoration: none;
+  color: white; /* Set the initial color to grey */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12.5px;
+  transition: color 0.25s; /* Add a transition property for smooth color change */
+}
+
+.update-link5616i:hover {
+  color: lightgrey; /* Change the color to black when the link is hovered */
+}
+
+.signout-link5616i {
+  text-decoration: none;
+  color: white; /* Set the initial color to grey */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12.5px;
+  transition: color 0.25s; /* Add a transition property for smooth color change */
+}
+
+.signout-link5616i:hover {
+  color: lightgrey; /* Change the color to black when the link is hovered */
+}
+
+.separator5616i {
+  width: 0.5px;
+  height: 15px;
+  background-color: white;
+  margin: 0px 15px;
+}
+
+.content-container5616 {
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+}
+
+.header-container5616 {
+  /* background-color: red; */
+  height: 105px;
+  margin-top: 15px;
+}
+
+.controller-container5616 {
+  /* background-color: lightblue; */
+  height: 90px;
+  position: relative;
+}
+
+.logo5616 {
+  display: flex;
+  max-width: 65.5px;
+  max-height: 65.5px;
+  width: auto;
+  height: auto;
+  margin: auto;
+}
+
+.link-container5616 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-top: 13px;
+}
+
+.link5616 {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 30px;
+  font-size: 12.5px;
+  font-weight: bold;
+}
+
+.link55616 {
+  text-decoration: none;
+  color: lightgrey; /* Set the initial color to grey */
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 30px;
+  font-size: 12.5px;
+  font-weight: bold;
+  transition: color 0.25s; /* Add a transition property for smooth color change */
+}
+
+.link55616:hover {
+  color: black; /* Change the color to black when the link is hovered */
+}
+
+.link555616 {
+  text-decoration: none;
+  color: lightgrey; /* Set the initial color to grey */
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 30px;
+  font-size: 12.5px;
+  font-weight: bold;
+  transition: color 0.25s; /* Add a transition property for smooth color change */
+}
+
+.link555616:hover {
+  color: black; /* Change the color to black when the link is hovered */
+}
+
+.separator-line55616 {
+  height: 1px;
+  background-color: lightgrey;
+}
+
+.middle-container5616 {
+  display: flex;
+  flex-direction: column;
+  height: 467.5px;
+  width: 100%;
+  /* background-color: green; */
+}
+
+.dashboard-container5616 {
+  display: flex;
+  flex-direction: column;
+  height: 52.5px;
+  width: 100%;
+  /* background-color: blue; */
+  position: relative; 
+}
+
+.stats-container5616 {
+  display: flex;
+  height: 22.5px;
+  width: 100%;
+  /* background-color: aqua; */
+  margin-top: 15px;
+}
+
+.button-container5616 {
+  display: flex;
+  align-items: center;
+  /* background-color: purple; */
+  height: 22.5px;
+  width: 131px;
+}
+
+.add-title5616 {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12.5px;
+  font-weight: bold;
+  align-items: center;
+  margin-right: 7.5px;
+  
+}
+
+.add-button5616 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 22.5px;
+  height: 22.5px;
+  border-radius: 50%;
+  border: 0.5px solid black;
+  background-color: white;
+  font-size: 17.5px;
+  color: black;
+  text-decoration: none;
+  margin-left: 9px;
+}
+
+.add-button5616 > a {
+  text-decoration: none; /* Remove underline */
+}
+
+.filter-bar-container5616i {
+  display: flex;
+  align-items: center;
+  /* background-color: orange; */
+  height: 22.5px;
+  width: 400px;
+  margin-left: 30px;
+}
+
+.dropdown5616i {
+  height: 22.5px;
+  width: 216px;
+  background-color: white;
+  color: black;
+  border: 0.5px solid black;
+}
+
+.filter-button-container5616i {
+  height: 22.5px;
+  width: 80.5px;
+  /* background-color: blue; */
+  margin-left: 30px;
+}
+
+.filter-button5616i {
+  height: 22.5px;
+  width: 80px;
+  background-color: white;
+  color: black;
+  border: 0.5px solid black;
+  border-radius: 11.25px;
+  font-size: 12.5px;
+  cursor: pointer;
+  transition: background-color 0.25s;
+   
+  }
+
+  .filter-button5616i:hover {
+    background-color: black;
+    color: white;
+  }
+
+.invent5616 {
+  display: flex;
+  height: 22.5px;
+  width: 135px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  margin-left: auto;
+}
+
+.invent-title-box5616 {
+  display: flex;
+  height: 9px;
+  width: 72.5px;
+  /* background-color: magenta; */
+}
+
+.invent-title5616 {
+  font-size: 12.5px;
+  font-weight: bold;
+  margin-top: -2.5px;
+}
+
+.number01-box5616 {
+  display: flex;
+  height: 22.5px;
+  width: 47.5px;
+  /* background-color: magenta; */
+  margin-left: auto;
+  font-size: 30px;
+}
+
+.count015616 {
+  font-size: 22.5px;
+  margin-top: -1.5px;
+  font-weight: bold;
+  margin-left: -1.5px;
+}
+
+.stats-separator015616 {
+  background-color: black;
+  width: 0.5px;
+  height: 22.5px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.value5616 {
+  display: flex;
+  height: 22.5px;
+  width: 105px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  /* margin-left: auto; */
+}
+
+.value-title-box5616 {
+  display: flex;
+  height: 9px;
+  width: 41px;
+  /* background-color: magenta; */
+}
+
+.value-title5616 {
+  font-size: 12.5px;
+  font-weight: bold;
+  margin-top: -2.5px;
+}
+
+.number02-box5616 {
+  display: flex;
+  height: 22.5px;
+  width: 47.5px;
+  /* background-color: magenta; */
+  margin-left: auto;
+  font-size: 30px;
+}
+
+.count025616 {
+  font-size: 22.5px;
+  margin-top: -1.5px;
+  font-weight: bold;
+  margin-left: -1.5px;
+}
+
+.stats-separator025616 {
+  background-color: black;
+  width: 0.5px;
+  height: 22.5px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.resold5616 {
+  display: flex;
+  height: 22.5px;
+  width: 114px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  /* margin-left: auto; */
+}
+
+.resold-title-box5616 {
+  display: flex;
+  height: 9px;
+  width: 51.5px;
+  /* background-color: magenta; */
+}
+
+.resold-title5616 {
+  font-size: 12.5px;
+  font-weight: bold;
+  margin-top: -2.5px;
+}
+
+.number03-box5616 {
+  display: flex;
+  height: 22.5px;
+  width: 47.5px;
+  /* background-color: magenta; */
+  margin-left: auto;
+  font-size: 30px;
+}
+
+.count035616 {
+  font-size: 22.5px;
+  margin-top: -1.5px;
+  font-weight: bold;
+  margin-left: -1.5px;
+}
+
+.stats-separator035616 {
+  background-color: black;
+  width: 0.5px;
+  height: 22.5px;
+  margin-left: 15px;
+}
+
+.profit5616 {
+  display: flex;
+  height: 22.5px;
+  width: 109px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  /* margin-left: auto; */
+  margin-left: 15px;
+}
+
+.profit-title-box5616 {
+  display: flex;
+  height: 9px;
+  width: 46px;
+  /* background-color: magenta; */
+}
+
+.profit-title5616 {
+  font-size: 12.5px;
+  font-weight: bold;
+  margin-top: -2.5px;
+}
+
+.number04-box5616 {
+  display: flex;
+  height: 22.5px;
+  width: 47.5px;
+  /* background-color: magenta; */
+  margin-left: auto;
+  font-size: 30px;;
+}
+
+.count045616 {
+  font-size: 22.5px;
+  margin-top: -1.5px;
+  font-weight: bold;
+  margin-left: -1.5px;
+}
+
+.separator-line555616 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: lightgrey;
+}
+
+.body-container5616 {
+  display: flex;
+  height: 400.5px;
+  width: 100%;
+  /* background-color: orange; */
+  margin-top: 15px;
+}
+
+.added-sneaker-frame5616 {
+  display: flex;
+  height: 334px;
+  width: 270px;
+  /* background-color: aqua; */
+  border-radius: 5%;
+  border: 0.5px solid black;
+}
+
+.added-sneaker-container5616 {
+  display: flex;
+  height: 270px;
+  width: 240px;
+  /* background-color: white; */
+  margin-left: 15px;
+  margin-top: 15px;
+  flex-direction: column;
+  
+}
+
+.added-sneaker-header5616 {
+  height: 30px;
+  width: 210px;
+  background-color: white;
+  margin-left: 15px;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+
+.added-sneaker-logo5616 {
+  height: 30px;
+  width: auto;
+  /* background-color: blue; */
+}
+
+.added-sneaker-pic5616 {
+  height: 182.5px;
+  width: 240px;
+  background-image: url("aj3.png");
+  background-size: contain;
+  margin-left: -15px;
+}
+
+.added-sneaker-info5616 {
+  height: 61.5px;
+  width: 240px;
+  /* background-color: pink; */
+  margin-left: -15px;
+}
+
+.added-sneaker-brand5616 {
+  font-size: 12.5px;
+  font-weight: bold;
+  margin-top: -2.5px;
+}
+
+.added-sneaker-model5616 {
+  font-size: 12.5px;
+  margin-top: -7.5px;
+}
+
+.added-sneaker-size5616 {
+  font-size: 10px;
+  margin-top: -6px;
+}
+
+.added-sneaker-price5616 {
+  font-size: 10px;
+  margin-top: -7.5px;
+}
+
+.added-sneaker-buttons5616 {
+  height: 15px;
+  width: 240px;
+  /* background-color: pink; */
+  margin-top: 15px;
+  margin-left: -15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hold-sneaker-link5616 {
+  text-decoration: none;
+  color: black; /* Set the initial color to grey */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12.5px;
+  cursor: pointer;
+}
+
+.list-sneaker-link5616 {
+  text-decoration: none;
+  color: green;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12.5px;
+  cursor: pointer;
+}
+
+.sold-sneaker-link5616 {
+  text-decoration: none;
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12.5px;
+  cursor: pointer;
+}
+
+.separator55555616 {
+  width: 0.5px;
+  height: 15px;
+  background-color: black;
+  margin: 0px 15px;
+}
+
+.footer-container5616 {
+  /* background-color: pink; */
+  height: 37.5px;
+}
+
+.retailor-container5616 {
+  height: 22.5px;
+  /* background-color: aqua; */
+  margin-top: 15px;
+  /* border: 0.5px solid black; */
+}
+
+.nike5616 {
+  height: 15px;
+  margin-right: 15px;
+  margin-top: 4px;
+}
+
+.adidas5616 {
+  height: 15px;
+  margin-right: 15px;
+  /* margin-left: 15px; */
+  margin-top: 3.5px;
+}
+
+.jordan5616 {
+  height: 15px;
+  margin-right: 15px;
+  margin-top: 3.5px;
+}
+
+.yeezy5616 {
+  height: 15px;
+  margin-right: 15px;
+  margin-top: 3.5px;
+}
+
+.new-balance5616 {
+  height: 15px;
+  margin-top: 7.5px;
+} 
+
+.stockx5616 {
+  width: auto;
+  height: 15px;
+  position: absolute; 
+  right: 0;
+  margin-top: 7.5px;
+  /* margin-right: 15px; */
+}

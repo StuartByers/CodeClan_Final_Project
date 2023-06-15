@@ -1,0 +1,158 @@
+.update-form9 {
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.signup-frame9 {
+    height: 469px;
+    width: 385px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    border: 0.5px solid black;
+}
+
+.signup-container9 {
+    height: 409px;
+    width: 325px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: white; */
+    align-items: center; /* Added */
+    justify-content: center; /* Added */
+}
+
+.logo-container9 {
+    height: 137px;
+    width: 325px;
+    /* background-color: blue; */
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.logo10 {
+    height: 137px;
+    width: auto;
+}
+
+.details-container9 {
+    height: 93px;
+    width: 325px;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.fname-box9 {
+    height: 15px;
+    background-color: white;
+    color: black;
+    border: 0.5px solid black;
+    padding: 5px;
+    margin-bottom: 7.5px;
+}
+
+.fname-box9::placeholder {
+    color: black;
+    font-size: 12.5px;
+  }
+
+.sname-box9 {
+    height: 15px;
+    background-color: white;
+    color: black;
+    border: 0.5px solid black;
+    padding: 5px;
+    margin-bottom: 7.5px;
+}
+
+.sname-box9::placeholder {
+    color: black;
+    font-size: 12.5px;
+  }
+
+.email-box9 {
+    height: 15px;
+    background-color: white;
+    color: black;
+    border: 0.5px solid black;
+    padding: 5px;
+    margin-bottom: 7.5px;
+}
+
+.email-box9::placeholder {
+    color: black;
+    font-size: 12.5px;
+}
+
+.password-container9 {
+    height: 59px;
+    width: 325px;
+    /* background-color: purple; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.password-box9 {
+    height: 15px;
+    background-color: white;
+    color: black;
+    border: 0.5px solid black;
+    padding: 5px;
+    margin-bottom: 7.5px;
+}
+
+.password-box9::placeholder {
+    color: black;
+    font-size: 12.5px;
+}
+
+.vpassword-box9 {
+    height: 15px;
+    background-color: white;
+    color: black;
+    border: 0.5px solid black;
+    padding: 5px;
+}
+
+.vpassword-box9::placeholder {
+    color: black;
+    font-size: 12.5px;
+}
+
+.button-container9 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin-top: 30px;
+  }
+  
+  .separator9218 {
+    width: 0.5px;
+    height: 30px;
+    background-color: black;
+    margin: 0px 15px;
+  }
+  
+  .link-button9 {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 12.5px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    cursor: pointer;
+  }
+
+  

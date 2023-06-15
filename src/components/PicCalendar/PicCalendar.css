@@ -1,0 +1,618 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .main-container00792 {
+    /* background-color: violet; */
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 650px;
+    position: relative;
+  }
+  
+  .user-container00792 {
+    background-color: black;
+    height: 22.5px;
+    position: relative;
+    border: 1px solid black;
+  }
+  
+  .user-info-container00792 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 4px 15px;
+  }
+  
+  .user-login00792 {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12.5px;
+    margin: 0;
+  }
+  
+  .links-container00792 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .update-link00792 {
+    text-decoration: none;
+    color: white; /* Set the initial color to grey */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12.5px;
+    transition: color 0.25s; /* Add a transition property for smooth color change */
+  }
+  
+  .update-link00792:hover {
+    color: lightgrey; /* Change the color to black when the link is hovered */
+  }
+  
+  .signout-link00792 {
+    text-decoration: none;
+    color: white; /* Set the initial color to grey */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12.5px;
+    transition: color 0.25s; /* Add a transition property for smooth color change */
+  }
+  
+  .signout-link00792:hover {
+    color: lightgrey; /* Change the color to black when the link is hovered */
+  }
+  
+  .separator00792 {
+    width: 0.5px;
+    height: 15px;
+    background-color: white;
+    margin: 0px 15px;
+  }
+  
+  .content-container792 {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header-container792 {
+    /* background-color: red; */
+    height: 105px;
+    margin-top: 15px;
+  }
+  
+  .controller-container792 {
+    /* background-color: lightblue; */
+    height: 90px;
+    position: relative;
+  }
+  
+  .logo792 {
+    display: flex;
+    max-width: 65.5px;
+    max-height: 65.5px;
+    width: auto;
+    height: auto;
+    margin: auto;
+  }
+  
+  .link-container792 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 13px;
+  }
+  
+  .link792 {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 30px;
+    font-size: 12.5px;
+    font-weight: bold;
+  }
+  
+  .link7792 {
+    text-decoration: none;
+    color: lightgrey; /* Set the initial color to grey */
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 30px;
+    font-size: 12.5px;
+    font-weight: bold;
+    transition: color 0.25s; /* Add a transition property for smooth color change */
+  }
+  
+  .link7792:hover {
+    color: black; /* Change the color to black when the link is hovered */
+  }
+  
+  .link77792 {
+    text-decoration: none;
+    color: lightgrey; /* Set the initial color to grey */
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 30px;
+    font-size: 12.5px;
+    font-weight: bold;
+    transition: color 0.25s; /* Add a transition property for smooth color change */
+  }
+  
+  .link77792:hover {
+    color: black; /* Change the color to black when the link is hovered */
+  }
+  
+  .separator-line7792 {
+    height: 1px;
+    background-color: black;
+  }
+  
+  .middle-container792 {
+    display: flex;
+    flex-direction: column;
+    height: 467.5px;
+    width: 100%;
+    /* background-color: green; */
+  }
+  
+  .dashboard-container792 {
+    display: flex;
+    flex-direction: column;
+    height: 52.5px;
+    width: 100%;
+    /* background-color: blue; */
+    position: relative; 
+  }
+  
+  .stats-container792 {
+    display: flex;
+    height: 22.5px;
+    width: 100%;
+    /* background-color: aqua; */
+    margin-top: 15px;
+  }
+  
+  .invent792 {
+    display: flex;
+    height: 22.5px;
+    width: 135px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin-left: auto;
+  }
+  
+  .invent-title-box792 {
+    display: flex;
+    height: 9px;
+    width: 72.5px;
+    /* background-color: magenta; */
+  }
+  
+  .invent-title792 {
+    font-size: 12.5px;
+    font-weight: bold;
+    margin-top: -2.5px;
+  }
+  
+  .number01-box792 {
+    display: flex;
+    height: 22.5px;
+    width: 47.5px;
+    /* background-color: magenta; */
+    margin-left: auto;
+    font-size: 30px;
+  }
+  
+  .count01792 {
+    font-size: 22.5px;
+    margin-top: -1.5px;
+    font-weight: bold;
+    margin-left: -1.5px;
+  }
+  
+  .stats-separator01792 {
+    background-color: black;
+    width: 0.5px;
+    height: 22.5px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  .value792 {
+    display: flex;
+    height: 22.5px;
+    width: 105px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    /* margin-left: auto; */
+  }
+  
+  .value-title-box792 {
+    display: flex;
+    height: 9px;
+    width: 41px;
+    /* background-color: magenta; */
+  }
+  
+  .value-title792 {
+    font-size: 12.5px;
+    font-weight: bold;
+    margin-top: -2.5px;
+  }
+  
+  .number02-box792 {
+    display: flex;
+    height: 22.5px;
+    width: 47.5px;
+    /* background-color: magenta; */
+    margin-left: auto;
+    font-size: 30px;
+  }
+  
+  .count02792 {
+    font-size: 22.5px;
+    margin-top: -1.5px;
+    font-weight: bold;
+    margin-left: -1.5px;
+  }
+  
+  .stats-separator02792 {
+    background-color: black;
+    width: 0.5px;
+    height: 22.5px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  .resold792 {
+    display: flex;
+    height: 22.5px;
+    width: 114px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    /* margin-left: auto; */
+  }
+  
+  .resold-title-box792 {
+    display: flex;
+    height: 9px;
+    width: 51.5px;
+    /* background-color: magenta; */
+  }
+  
+  .resold-title792 {
+    font-size: 12.5px;
+    font-weight: bold;
+    margin-top: -2.5px;
+  }
+  
+  .number03-box792 {
+    display: flex;
+    height: 22.5px;
+    width: 47.5px;
+    /* background-color: magenta; */
+    margin-left: auto;
+    font-size: 30px;
+  }
+  
+  .count03792 {
+    font-size: 22.5px;
+    margin-top: -1.5px;
+    font-weight: bold;
+    margin-left: -1.5px;
+  }
+  
+  .stats-separator03792 {
+    background-color: black;
+    width: 0.5px;
+    height: 22.5px;
+    margin-left: 15px;
+  }
+  
+  .profit792 {
+    display: flex;
+    height: 22.5px;
+    width: 109px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    /* margin-left: auto; */
+    margin-left: 15px;
+  }
+  
+  .profit-title-box792 {
+    display: flex;
+    height: 9px;
+    width: 46px;
+    /* background-color: magenta; */
+  }
+  
+  .profit-title792 {
+    font-size: 12.5px;
+    font-weight: bold;
+    margin-top: -2.5px;
+  }
+  
+  .number04-box792 {
+    display: flex;
+    height: 22.5px;
+    width: 47.5px;
+    /* background-color: magenta; */
+    margin-left: auto;
+    font-size: 30px;;
+  }
+  
+  .count04792 {
+    font-size: 22.5px;
+    margin-top: -1.5px;
+    font-weight: bold;
+    margin-left: -1.5px;
+  }
+  
+  .separator-line77792 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+  }
+  
+  .body-container792 {
+    display: flex;
+    height: 400.5px;
+    width: 100%;
+    /* background-color: orange; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+.add-sneaker-frame0792 {
+  height: 352.5px;
+  width: 826px;
+  display: flex;
+  /* background-color: blueviolet; */
+}
+
+.add-sneaker-photo-box0792 {
+  display: flex;
+  height: 350.5px;
+  width: 352.5px;
+  background-image: url("airj3.png");
+  background-size: contain;
+  border: 1px dashed black;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-sneaker-photo-title0792 {
+  font-size: 17.5px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.separator-line0777792 {
+  margin-left: 60px;
+  margin-right: 60px;
+  width: 1px;
+  height: 352.5px;
+  background-color: black;
+}
+
+.signup-frame0792 {
+  height: 224.5px;
+  width: 355px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: red; */
+  border: 1px solid black;
+  margin-top: 64px;
+}
+
+.signup-container0792 {
+  height: 194.5px;
+  width: 325px;
+  display: flex;
+  flex-direction: column;
+  /* background-color: aqua; */
+  align-items: center; 
+  justify-content: center;
+}
+
+.logo-container0792 {
+  height: 45px;
+  width: 325px;
+  /* background-color: blue; */
+  /* margin-top: -70px; */
+  display: flex;
+  justify-content: center;
+}
+
+.logo7092 {
+  height: 45px;
+  width: auto;
+}
+
+.details-container0792 {
+  height: 59.5px;
+  width: 325px;
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.fname-box0792 {
+  height: 15px;
+  background-color: white;
+  color: black;
+  border: 0.5px solid black;
+  padding: 5px;
+  margin-bottom: 7.5px;
+}
+
+.fname-box0792::placeholder {
+  color: black;
+  font-size: 12.5px;
+}
+
+.sname-box0792 {
+  height: 15px;
+  background-color: white;
+  color: black;
+  border: 0.5px solid black;
+  padding: 5px;
+  margin-bottom: 7.5px;
+}
+
+.sname-box0792::placeholder {
+  color: black;
+  font-size: 12.5px;
+}
+
+.email-box0792 {
+  height: 15px;
+  background-color: white;
+  color: black;
+  border: 0.5px solid black;
+  padding: 5px;
+  margin-bottom: 7.5px;
+}
+
+.email-box0792::placeholder {
+  color: black;
+  font-size: 12.5px;
+}
+
+.other-box0792 {
+  height: 15px;
+  background-color: white;
+  color: black;
+  border: 0.5px solid black;
+  padding: 5px;
+}
+
+.other-box0792::placeholder {
+  color: black;
+  font-size: 12.5px;
+}
+
+.password-container0792 {
+  height: 59px;
+  width: 325px;
+  /* background-color: purple; */
+  display: flex;
+  flex-direction: column;
+  margin-top: 26px;
+}
+
+.password-box0792 {
+  height: 15px;
+  background-color: white;
+  color: black;
+  border: 0.5px solid black;
+  padding: 5px;
+  margin-bottom: 7.5px;
+}
+
+.password-box0792::placeholder {
+  color: black;
+  font-size: 12.5px;
+}
+
+.vpassword-box0792 {
+  height: 15px;
+  background-color: white;
+  color: black;
+  border: 0.5px solid black;
+  padding: 5px;
+}
+
+.vpassword-box0792::placeholder {
+  color: black;
+  font-size: 12.5px;
+}
+
+.button-container0792 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  
+}
+
+.separator792 {
+  width: 0.5px;
+  height: 30px;
+  background-color: black;
+  margin: 0px 15px;
+}
+
+.link-button0792 {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 12.5px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  cursor: pointer;
+}
+  .footer-container792 {
+    /* background-color: pink; */
+    height: 37.5px;
+  }
+  
+  .retailor-container792 {
+    height: 22.5px;
+    /* background-color: aqua; */
+    margin-top: 15px;
+    /* border: 0.5px solid black; */
+  }
+  
+  .nike792 {
+    height: 15px;
+    margin-right: 15px;
+    margin-top: 4px;
+  }
+  
+  .adidas792 {
+    height: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 3.5px;
+  }
+  
+  .jordan792 {
+    height: 15px;
+    margin-right: 15px;
+    margin-top: 3.5px;
+  }
+  
+  .yeezy792 {
+    height: 15px;
+    margin-right: 15px;
+    margin-top: 3.5px;
+  }
+  
+  .new-balance792 {
+    height: 15px;
+    margin-top: 7.5px;
+  } 
+  
+  .stockx792 {
+    width: auto;
+    height: 15px;
+    position: absolute; 
+    right: 0;
+    margin-top: 7.5px;
+    margin-right: 15px;
+  }

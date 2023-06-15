@@ -1,0 +1,1253 @@
+.main-container4 {
+    /* background-color: violet; */
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 650px;
+    position: relative;
+  }
+  
+  .user-container4 {
+    background-color: black;
+    height: 22.5px;
+    position: relative;
+    border: 0.5px solid black;
+  }
+  
+  .user-info-container4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 4px 15px;
+  }
+  
+  .user-login4 {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12.5px;
+    margin: 0;
+  }
+  
+  .links-container4 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .update-link4 {
+    text-decoration: none;
+    color: white; /* Set the initial color to grey */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12.5px;
+    transition: color 0.25s; /* Add a transition property for smooth color change */
+  }
+  
+  .update-link4:hover {
+    color: grey; /* Change the color to black when the link is hovered */
+  }
+
+  .signout-link4 {
+    text-decoration: none;
+    color: white; /* Set the initial color to grey */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12.5px;
+    transition: color 0.25s; /* Add a transition property for smooth color change */
+  }
+  
+  .signout-link4:hover {
+    color: grey; /* Change the color to black when the link is hovered */
+  }
+  
+  .separator4 {
+    width: 0.5px;
+    height: 15px;
+    background-color: white;
+    margin: 0px 15px;
+  }
+  
+  .content-container4 {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header-container4 {
+    /* background-color: red; */
+    height: 105px;
+    margin-top: 15px;
+  }
+  
+  .controller-container4 {
+    /* background-color: lightblue; */
+    height: 90px;
+    position: relative;
+  }
+  
+  .logo4 {
+    display: flex;
+    max-width: 65.5px;
+    max-height: 65.5px;
+    width: auto;
+    height: auto;
+    margin: auto;
+  }
+  
+  .link-container4 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 13px;
+  }
+  
+  .link4 {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 30px;
+    font-size: 12.5px;
+    font-weight: bold;
+  }
+  
+  .link44 {
+    text-decoration: none;
+    color: grey; /* Set the initial color to grey */
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 30px;
+    font-size: 12.5px;
+    font-weight: bold;
+    transition: color 0.25s; /* Add a transition property for smooth color change */
+  }
+  
+  .link44:hover {
+    color: black; /* Change the color to black when the link is hovered */
+  }
+  
+  .link444 {
+    text-decoration: none;
+    color: grey; /* Set the initial color to grey */
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 30px;
+    font-size: 12.5px;
+    font-weight: bold;
+    transition: color 0.25s; /* Add a transition property for smooth color change */
+  }
+  
+  .link444:hover {
+    color: black; /* Change the color to black when the link is hovered */
+  }
+  
+  .separator-line44 {
+    height: 1px;
+    background-color: lightgrey;
+  }
+  
+  .middle-container4 {
+    display: flex;
+    flex-direction: column;
+    height: 467.5px;
+    width: 100%;
+    /* background-color: green; */
+  }
+  
+  .dashboard-container4 {
+    display: flex;
+    flex-direction: column;
+    height: 52.5px;
+    width: 100%;
+    /* background-color: blue; */
+    position: relative; 
+  }
+
+  .stats-container4 {
+    display: flex;
+    height: 22.5px;
+    width: 100%;
+    /* background-color: aqua; */
+    margin-top: 15px;
+  }
+
+  .box1234 {
+    height: 22.5px;
+    width: 106px;
+    /* background-color: pink; */
+  }
+
+  .month-select-title4 {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12.5px;
+    font-weight: bold;
+    align-items: center;
+    margin-top: 4.5px;
+    margin-left: 0;
+  }
+
+  .box5678 {
+    display: flex;
+    height: 22.5px;
+    width: 600px;
+    /* background-color: red; */
+  }
+
+  .month-button4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 22.5px;
+    width: 45px;
+    border: 0.5px solid black;
+    background-color: white;
+    font-size: 10px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 7.5px;
+    border-radius: 11.25px;
+    transition: background-color 0.25s; /* Add a transition property for smooth color change */
+    /* transition: color 0.5s; */
+  }
+
+  .month-button4:hover {
+    background-color: lightgrey; /* Change the color to black when the link is hovered */
+  }
+
+  /* .month-button4:hover {
+    color: white;
+  } */
+  
+  .month-button4 > a {
+    text-decoration: none; 
+    color: black;
+  }
+
+  .month-button428 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 22.5px;
+    width: 45px;
+    border: 0.5px solid black;
+    background-color: black;
+    font-size: 10px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 7.5px;
+    border-radius: 11.25px;
+  }
+  
+  .invent4 {
+    display: flex;
+    height: 22.5px;
+    width: 135px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin-left: auto;
+  }
+  
+  .invent-title-box4 {
+    display: flex;
+    height: 9px;
+    width: 72.5px;
+    /* background-color: magenta; */
+  }
+  
+  .invent-title4 {
+    font-size: 12.5px;
+    font-weight: bold;
+    margin-top: -2.5px;
+  }
+  
+  .number01-box4 {
+    display: flex;
+    height: 22.5px;
+    width: 47.5px;
+    /* background-color: magenta; */
+    margin-left: auto;
+    font-size: 30px;
+  }
+  
+  .count014 {
+    font-size: 22.5px;
+    margin-top: -1.5px;
+    font-weight: bold;
+    margin-left: -1.5px;
+  }
+  
+  .stats-separator014 {
+    background-color: black;
+    width: 0.5px;
+    height: 22.5px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  .value4 {
+    display: flex;
+    height: 22.5px;
+    width: 105px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    /* margin-left: auto; */
+  }
+  
+  .value-title-box4 {
+    display: flex;
+    height: 9px;
+    width: 41px;
+    /* background-color: magenta; */
+  }
+  
+  .value-title4 {
+    font-size: 12.5px;
+    font-weight: bold;
+    margin-top: -2.5px;
+  }
+  
+  .number02-box4 {
+    display: flex;
+    height: 22.5px;
+    width: 47.5px;
+    /* background-color: magenta; */
+    margin-left: auto;
+    font-size: 30px;
+  }
+  
+  .count024 {
+    font-size: 22.5px;
+    margin-top: -1.5px;
+    font-weight: bold;
+    margin-left: -1.5px;
+  }
+  
+  .stats-separator024 {
+    background-color: black;
+    width: 0.5px;
+    height: 22.5px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  .resold4 {
+    display: flex;
+    height: 22.5px;
+    width: 114px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    /* margin-left: auto; */
+  }
+  
+  .resold-title-box4 {
+    display: flex;
+    height: 9px;
+    width: 51.5px;
+    /* background-color: magenta; */
+  }
+  
+  .resold-title4 {
+    font-size: 12.5px;
+    font-weight: bold;
+    margin-top: -2.5px;
+  }
+  
+  .number03-box4 {
+    display: flex;
+    height: 22.5px;
+    width: 47.5px;
+    /* background-color: magenta; */
+    margin-left: auto;
+    font-size: 30px;
+  }
+  
+  .count034 {
+    font-size: 22.5px;
+    margin-top: -1.5px;
+    font-weight: bold;
+    margin-left: -1.5px;
+  }
+  
+  .stats-separator034 {
+    background-color: black;
+    width: 0.5px;
+    height: 22.5px;
+    margin-left: 15px;
+  }
+  
+  .profit4 {
+    display: flex;
+    height: 22.5px;
+    width: 109px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    /* margin-left: auto; */
+    margin-left: 15px;
+  }
+  
+  .profit-title-box4 {
+    display: flex;
+    height: 9px;
+    width: 46px;
+    /* background-color: magenta; */
+  }
+  
+  .profit-title4 {
+    font-size: 12.5px;
+    font-weight: bold;
+    margin-top: -2.5px;
+  }
+  
+  .number04-box4 {
+    display: flex;
+    height: 22.5px;
+    width: 47.5px;
+    /* background-color: magenta; */
+    margin-left: auto;
+    font-size: 30px;;
+  }
+  
+  .count044 {
+    font-size: 22.5px;
+    margin-top: -1.5px;
+    font-weight: bold;
+    margin-left: -1.5px;
+  }
+  
+  .separator-line444 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: lightgrey;
+  }
+  
+  .body-container4 {
+    display: flex;
+    height: 400.5px;
+    width: 100%;
+    /* background-color: orange; */
+    margin-top: 15px;
+    flex-direction: column;
+  }
+
+  .date-rows-container {
+    height: 307.5px;
+    width: 1380px;
+    /* background-color: purple; */
+    margin-top: 46.5px;
+  }
+
+  .date-row14 {
+    display: flex;
+    height: 37.5px;
+    width: 1380px;
+    /* background-color: blue; */
+  }
+
+  .date-box104 {
+    height: 37.5px;
+    width: 171.42px;
+    border: 1px solid lightgrey;
+    /* background-color: green; */
+    border-radius: 18.75px; /* Half of the height */
+    overflow: hidden;
+  }
+
+  .control-container104 {
+    display: flex;
+    height: 22.5px;
+    width: 156.42px;
+    /* background-color: pink; */
+    margin-left: 7.5px;
+    margin-top: 7.5px;
+  }
+
+  .day-num-box104 {
+    width: 48.5px;
+    height: 22.5px;
+    /* background-color: aqua; */
+  }
+
+  .day-num104 {
+    font-size: 12.5px;
+    margin-top: 4px;
+    font-weight: bold;
+    margin-left: -1px;
+  }
+
+  .cal-add-button104 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 55.5px;
+  }
+  
+  .cal-add-button104 > a {
+    text-decoration: none; /* Remove underline */
+    margin-top: 0.5px;
+  }
+
+  .cal-sub-button104 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 7.5px;
+  }
+  
+  .cal-sub-button104 > a {
+    text-decoration: none; /* Remove underline */
+    margin-bottom: 2.5px;
+  }
+
+  .date-box14 {
+    height: 37.5px;
+    width: 171.42px;
+    border: 1px solid lightgrey;
+    /* background-color: green; */
+    border-radius: 18.75px; /* Half of the height */
+    overflow: hidden;
+    margin-left: 30px;
+  }
+
+  .control-container14 {
+    display: flex;
+    height: 22.5px;
+    width: 156.42px;
+    /* background-color: pink; */
+    margin-left: 7.5px;
+    margin-top: 7.5px;
+  }
+
+  .day-num-box14 {
+    width: 48.5px;
+    height: 22.5px;
+    /* background-color: aqua; */
+  }
+
+  .day-num14 {
+    font-size: 12.5px;
+    margin-top: 4px;
+    font-weight: bold;
+    margin-left: -1px;
+  }
+
+  .cal-add-button14 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 55.5px;
+  }
+  
+  .cal-add-button14 > a {
+    text-decoration: none; /* Remove underline */
+    margin-top: 0.5px;
+  }
+
+  .cal-sub-button14 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 7.5px;
+  }
+  
+  .cal-sub-button14 > a {
+    text-decoration: none; /* Remove underline */
+    margin-bottom: 2.5px;
+  }
+
+  .date-row24 {
+    display: flex;
+    height: 37.5px;
+    width: 1380px;
+    /* background-color: blue; */
+    margin-top: 30px;
+  }
+
+  .date-box024 {
+    height: 37.5px;
+    width: 171.42px;
+    border: 1px solid lightgrey;
+    /* background-color: green; */
+    border-radius: 18.75px; /* Half of the height */
+    overflow: hidden;
+  }
+
+  .control-container024 {
+    display: flex;
+    height: 22.5px;
+    width: 156.42px;
+    /* background-color: pink; */
+    margin-left: 7.5px;
+    margin-top: 7.5px;
+  }
+
+  .day-num-box024 {
+    width: 48.5px;
+    height: 22.5px;
+    /* background-color: aqua; */
+  }
+
+  .day-num024 {
+    font-size: 12.5px;
+    margin-top: 4px;
+    font-weight: bold;
+    margin-left: -1px;
+  }
+
+  .cal-add-button024 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 55.5px;
+  }
+  
+  .cal-add-button024 > a {
+    text-decoration: none; /* Remove underline */
+    margin-top: 0.5px;
+  }
+
+  .cal-sub-button024 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 7.5px;
+  }
+  
+  .cal-sub-button024 > a {
+    text-decoration: none; /* Remove underline */
+    margin-bottom: 2.5px;
+  }
+
+  .date-box24 {
+    height: 37.5px;
+    width: 171.42px;
+    border: 1px solid lightgrey;
+    /* background-color: green; */
+    border-radius: 18.75px; /* Half of the height */
+    overflow: hidden;
+    margin-left: 30px;
+  }
+
+  .control-container24 {
+    display: flex;
+    height: 22.5px;
+    width: 156.42px;
+    /* background-color: pink; */
+    margin-left: 7.5px;
+    margin-top: 7.5px;
+  }
+
+  .day-num-box24 {
+    width: 48.5px;
+    height: 22.5px;
+    /* background-color: aqua; */
+  }
+
+  .day-num24 {
+    font-size: 12.5px;
+    margin-top: 4px;
+    font-weight: bold;
+    margin-left: -1px;
+  }
+
+  .cal-add-button24 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 55.5px;
+  }
+  
+  .cal-add-button24 > a {
+    text-decoration: none; /* Remove underline */
+    margin-top: 0.5px;
+  }
+
+  .cal-sub-button24 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 7.5px;
+  }
+  
+  .cal-sub-button24 > a {
+    text-decoration: none; /* Remove underline */
+    margin-bottom: 2.5px;
+  }
+
+  .date-row34 {
+    display: flex;
+    height: 37.5px;
+    width: 1380px;
+    /* background-color: blue; */
+    margin-top: 30px;
+  }
+
+  .date-box034 {
+    height: 37.5px;
+    width: 171.42px;
+    border: 1px solid lightgrey;
+    /* background-color: green; */
+    border-radius: 18.75px; /* Half of the height */
+    overflow: hidden;
+  }
+
+  .control-container034 {
+    display: flex;
+    height: 22.5px;
+    width: 156.42px;
+    /* background-color: pink; */
+    margin-left: 7.5px;
+    margin-top: 7.5px;
+  }
+
+  .day-num-box034 {
+    width: 48.5px;
+    height: 22.5px;
+    /* background-color: aqua; */
+  }
+
+  .day-num034 {
+    font-size: 12.5px;
+    margin-top: 4px;
+    font-weight: bold;
+    margin-left: -1px;
+  }
+
+  .cal-add-button034 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 55.5px;
+  }
+  
+  .cal-add-button034 > a {
+    text-decoration: none; /* Remove underline */
+    margin-top: 0.5px;
+  }
+
+  .cal-sub-button034 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 7.5px;
+  }
+  
+  .cal-sub-button034 > a {
+    text-decoration: none; /* Remove underline */
+    margin-bottom: 2.5px;
+  }
+
+  .date-box34 {
+    height: 37.5px;
+    width: 171.42px;
+    border: 1px solid lightgrey;
+    /* background-color: green; */
+    border-radius: 18.75px; /* Half of the height */
+    overflow: hidden;
+    margin-left: 30px;
+  }
+
+  .control-container34 {
+    display: flex;
+    height: 22.5px;
+    width: 156.42px;
+    /* background-color: pink; */
+    margin-left: 7.5px;
+    margin-top: 7.5px;
+  }
+
+  .day-num-box34 {
+    width: 48.5px;
+    height: 22.5px;
+    /* background-color: aqua; */
+  }
+
+  .day-num34 {
+    font-size: 12.5px;
+    margin-top: 4px;
+    font-weight: bold;
+    margin-left: -1px;
+  }
+
+  .cal-add-button34 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 55.5px;
+  }
+  
+  .cal-add-button34 > a {
+    text-decoration: none; /* Remove underline */
+    margin-top: 0.5px;
+  }
+
+  .cal-sub-button34 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 7.5px;
+  }
+  
+  .cal-sub-button34 > a {
+    text-decoration: none; /* Remove underline */
+    margin-bottom: 2.5px;
+  }
+
+  .date-row44 {
+    display: flex;
+    height: 37.5px;
+    width: 1380px;
+    /* background-color: blue; */
+    margin-top: 30px;
+  }
+
+  .date-box044 {
+    height: 37.5px;
+    width: 171.42px;
+    border: 1px solid lightgrey;
+    /* background-color: green; */
+    border-radius: 18.75px; /* Half of the height */
+    overflow: hidden;
+  }
+
+  .control-container044 {
+    display: flex;
+    height: 22.5px;
+    width: 156.42px;
+    /* background-color: pink; */
+    margin-left: 7.5px;
+    margin-top: 7.5px;
+  }
+
+  .day-num-box044 {
+    width: 48.5px;
+    height: 22.5px;
+    /* background-color: aqua; */
+  }
+
+  .day-num044 {
+    font-size: 12.5px;
+    margin-top: 4px;
+    font-weight: bold;
+    margin-left: -1px;
+  }
+
+  .cal-add-button044 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 55.5px;
+  }
+  
+  .cal-add-button044 > a {
+    text-decoration: none; /* Remove underline */
+    margin-top: 0.5px;
+  }
+
+  .cal-sub-button044 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 7.5px;
+  }
+  
+  .cal-sub-button044 > a {
+    text-decoration: none; /* Remove underline */
+    margin-bottom: 2.5px;
+  }
+
+  .date-box44 {
+    height: 37.5px;
+    width: 171.42px;
+    border: 1px solid lightgrey;
+    /* background-color: green; */
+    border-radius: 18.75px; /* Half of the height */
+    overflow: hidden;
+    margin-left: 30px;
+  }
+
+  .control-container44 {
+    display: flex;
+    height: 22.5px;
+    width: 156.42px;
+    /* background-color: pink; */
+    margin-left: 7.5px;
+    margin-top: 7.5px;
+  }
+
+  .day-num-box44 {
+    width: 48.5px;
+    height: 22.5px;
+    /* background-color: aqua; */
+  }
+
+  .day-num44 {
+    font-size: 12.5px;
+    margin-top: 4px;
+    font-weight: bold;
+    margin-left: -1px;
+  }
+
+  .cal-add-button44 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 55.5px;
+  }
+  
+  .cal-add-button44 > a {
+    text-decoration: none; /* Remove underline */
+    margin-top: 0.5px;
+  }
+
+  .cal-sub-button44 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 7.5px;
+  }
+  
+  .cal-sub-button44 > a {
+    text-decoration: none; /* Remove underline */
+    margin-bottom: 2.5px;
+  }
+
+  .date-row54 {
+    display: flex;
+    height: 37.5px;
+    width: 1380px;
+    /* background-color: blue; */
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .date-box054 {
+    height: 37.5px;
+    width: 171.42px;
+    border: 1px solid lightgrey;
+    /* background-color: green; */
+    border-radius: 18.75px; /* Half of the height */
+    overflow: hidden;
+  }
+
+  .control-container054 {
+    display: flex;
+    height: 22.5px;
+    width: 156.42px;
+    /* background-color: pink; */
+    margin-left: 7.5px;
+    margin-top: 7.5px;
+  }
+
+  .day-num-box054 {
+    width: 48.5px;
+    height: 22.5px;
+    /* background-color: aqua; */
+  }
+
+  .day-num054 {
+    font-size: 12.5px;
+    margin-top: 4px;
+    font-weight: bold;
+    margin-left: -1px;
+  }
+
+  .cal-add-button054 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 55.5px;
+  }
+  
+  .cal-add-button054 > a {
+    text-decoration: none; /* Remove underline */
+    margin-top: 0.5px;
+  }
+
+  .cal-sub-button054 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 7.5px;
+  }
+  
+  .cal-sub-button054 > a {
+    text-decoration: none; /* Remove underline */
+    margin-bottom: 2.5px;
+  }
+
+  .date-box54 {
+    height: 37.5px;
+    width: 171.42px;
+    /* background-color: green; */
+    border: 1px solid lightgrey;
+    border-radius: 18.75px; /* Half of the height */
+    overflow: hidden;
+    margin-left: 30px;
+  }
+
+  .control-container54 {
+    display: flex;
+    height: 22.5px;
+    width: 156.42px;
+    /* background-color: pink; */
+    margin-left: 7.5px;
+    margin-top: 7.5px;
+  }
+
+  .day-num-box54 {
+    width: 48.5px;
+    height: 22.5px;
+    /* background-color: aqua; */
+  }
+
+  .day-num54 {
+    font-size: 12.5px;
+    margin-top: 4px;
+    font-weight: bold;
+    margin-left: -1px;
+  }
+
+  .cal-add-button54 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 55.5px;
+  }
+  
+  .cal-add-button54 > a {
+    text-decoration: none; /* Remove underline */
+    margin-top: 0.5px;
+  }
+
+  .cal-sub-button54 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 7.5px;
+  }
+  
+  .cal-sub-button54 > a {
+    text-decoration: none; /* Remove underline */
+    margin-bottom: 2.5px;
+  }
+  
+  .footer-container4 {
+    /* background-color: pink; */
+    height: 37.5px;
+  }
+  
+  .retailor-container4 {
+    height: 22.5px;
+    /* background-color: aqua; */
+    margin-top: 15px;
+    /* border: 0.5px solid black; */
+  }
+  
+  .nike4 {
+    height: 15px;
+    margin-right: 15px;
+    margin-top: 4px;
+  }
+  
+  .adidas4 {
+    height: 15px;
+    margin-right: 15px;
+    /* margin-left: 15px; */
+    margin-top: 3.5px;
+  }
+  
+  .jordan4 {
+    height: 15px;
+    margin-right: 15px;
+    margin-top: 3.5px;
+  }
+  
+  .yeezy4 {
+    height: 15px;
+    margin-right: 15px;
+    margin-top: 3.5px;
+  }
+  
+  .new-balance4 {
+    height: 15px;
+    margin-top: 7.5px;
+  } 
+  
+  .stockx4 {
+    width: auto;
+    height: 15px;
+    position: absolute; 
+    right: 0;
+    margin-top: 7.5px;
+    /* margin-right: 15px; */
+  }

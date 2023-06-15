@@ -1,0 +1,1282 @@
+.main-container9 {
+    /* background-color: violet; */
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 650px;
+    position: relative;
+  }
+  
+  .user-container9 {
+    background-color: black;
+    height: 22.5px;
+    position: relative;
+    border: 0.5px solid black;
+  }
+  
+  .user-info-container9 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 4px 15px;
+  }
+  
+  .user-login9 {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12.5px;
+    margin: 0;
+  }
+  
+  .links-container9 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .update-link9 {
+    text-decoration: none;
+    color: white; /* Set the initial color to grey */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12.5px;
+    transition: color 0.25s; /* Add a transition property for smooth color change */
+  }
+  
+  .update-link9:hover {
+    color: grey; /* Change the color to black when the link is hovered */
+  }
+
+  .signout-link9 {
+    text-decoration: none;
+    color: white; /* Set the initial color to grey */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12.5px;
+    transition: color 0.25s; /* Add a transition property for smooth color change */
+  }
+  
+  .signout-link9:hover {
+    color: grey; /* Change the color to black when the link is hovered */
+  }
+  
+  .separator9 {
+    width: 0.5px;
+    height: 15px;
+    background-color: white;
+    margin: 0px 15px;
+  }
+  
+  .content-container9 {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header-container9 {
+    /* background-color: red; */
+    height: 105px;
+    margin-top: 15px;
+  }
+  
+  .controller-container9 {
+    /* background-color: lightblue; */
+    height: 90px;
+    position: relative;
+  }
+  
+  .logo9 {
+    display: flex;
+    max-width: 65.5px;
+    max-height: 65.5px;
+    width: auto;
+    height: auto;
+    margin: auto;
+  }
+  
+  .link-container9 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 13px;
+  }
+  
+  .link9 {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 30px;
+    font-size: 12.5px;
+    font-weight: bold;
+  }
+  
+  .link99 {
+    text-decoration: none;
+    color: grey; /* Set the initial color to grey */
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 30px;
+    font-size: 12.5px;
+    font-weight: bold;
+    transition: color 0.25s; /* Add a transition property for smooth color change */
+  }
+  
+  .link99:hover {
+    color: black; /* Change the color to black when the link is hovered */
+  }
+  
+  .link999 {
+    text-decoration: none;
+    color: grey; /* Set the initial color to grey */
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 30px;
+    font-size: 12.5px;
+    font-weight: bold;
+    transition: color 0.25s; /* Add a transition property for smooth color change */
+  }
+  
+  .link999:hover {
+    color: black; /* Change the color to black when the link is hovered */
+  }
+  
+  .separator-line99 {
+    height: 1px;
+    background-color: lightgrey;
+  }
+  
+  .middle-container9 {
+    display: flex;
+    flex-direction: column;
+    height: 467.5px;
+    width: 100%;
+    /* background-color: green; */
+  }
+  
+  .dashboard-container9 {
+    display: flex;
+    flex-direction: column;
+    height: 52.5px;
+    width: 100%;
+    /* background-color: blue; */
+    position: relative; 
+  }
+
+  .stats-container9 {
+    display: flex;
+    height: 22.5px;
+    width: 100%;
+    /* background-color: aqua; */
+    margin-top: 15px;
+  }
+
+  .box4321 {
+    height: 22.5px;
+    width: 106px;
+    /* background-color: pink; */
+  }
+
+  .month-select-title9 {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12.5px;
+    font-weight: bold;
+    align-items: center;
+    margin-top: 4.5px;
+    margin-left: 0;
+  }
+
+  .box8765 {
+    display: flex;
+    height: 22.5px;
+    width: 600px;
+    /* background-color: red; */
+  }
+
+  .month-button9736 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 22.5px;
+    width: 45px;
+    border: 0.5px solid black;
+    background-color: black;
+    font-size: 10px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 7.5px;
+    border-radius: 11.25px;
+  }
+
+  .month-button9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 22.5px;
+    width: 45px;
+    border: 0.5px solid black;
+    background-color: white;
+    font-size: 10px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 7.5px;
+    border-radius: 11.25px;
+    transition: background-color 0.25s; /* Add a transition property for smooth color change */
+    /* transition: color 0.5s; */
+  }
+
+  .month-button9:hover {
+    background-color: lightgrey; /* Change the color to black when the link is hovered */
+  }
+
+  /* .month-button4:hover {
+    color: white;
+  } */
+  
+  .month-button9 > a {
+    text-decoration: none; 
+    color: black;
+  }
+  
+  .invent9 {
+    display: flex;
+    height: 22.5px;
+    width: 135px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin-left: auto;
+  }
+  
+  .invent-title-box9 {
+    display: flex;
+    height: 9px;
+    width: 72.5px;
+    /* background-color: magenta; */
+  }
+  
+  .invent-title9 {
+    font-size: 12.5px;
+    font-weight: bold;
+    margin-top: -2.5px;
+  }
+  
+  .number01-box9 {
+    display: flex;
+    height: 22.5px;
+    width: 47.5px;
+    /* background-color: magenta; */
+    margin-left: auto;
+    font-size: 30px;
+  }
+  
+  .count019 {
+    font-size: 22.5px;
+    margin-top: -1.5px;
+    font-weight: bold;
+    margin-left: -1.5px;
+  }
+  
+  .stats-separator019 {
+    background-color: black;
+    width: 0.5px;
+    height: 22.5px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  .value9 {
+    display: flex;
+    height: 22.5px;
+    width: 105px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    /* margin-left: auto; */
+  }
+  
+  .value-title-box9 {
+    display: flex;
+    height: 9px;
+    width: 41px;
+    /* background-color: magenta; */
+  }
+  
+  .value-title9 {
+    font-size: 12.5px;
+    font-weight: bold;
+    margin-top: -2.5px;
+  }
+  
+  .number02-box9 {
+    display: flex;
+    height: 22.5px;
+    width: 47.5px;
+    /* background-color: magenta; */
+    margin-left: auto;
+    font-size: 30px;
+  }
+  
+  .count029 {
+    font-size: 22.5px;
+    margin-top: -1.5px;
+    font-weight: bold;
+    margin-left: -1.5px;
+  }
+  
+  .stats-separator029 {
+    background-color: black;
+    width: 0.5px;
+    height: 22.5px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  .resold9 {
+    display: flex;
+    height: 22.5px;
+    width: 114px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    /* margin-left: auto; */
+  }
+  
+  .resold-title-box9 {
+    display: flex;
+    height: 9px;
+    width: 51.5px;
+    /* background-color: magenta; */
+  }
+  
+  .resold-title9 {
+    font-size: 12.5px;
+    font-weight: bold;
+    margin-top: -2.5px;
+  }
+  
+  .number03-box9 {
+    display: flex;
+    height: 22.5px;
+    width: 47.5px;
+    /* background-color: magenta; */
+    margin-left: auto;
+    font-size: 30px;
+  }
+  
+  .count039 {
+    font-size: 22.5px;
+    margin-top: -1.5px;
+    font-weight: bold;
+    margin-left: -1.5px;
+  }
+  
+  .stats-separator039 {
+    background-color: black;
+    width: 0.5px;
+    height: 22.5px;
+    margin-left: 15px;
+  }
+  
+  .profit9 {
+    display: flex;
+    height: 22.5px;
+    width: 109px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    /* margin-left: auto; */
+    margin-left: 15px;
+  }
+  
+  .profit-title-box9 {
+    display: flex;
+    height: 9px;
+    width: 46px;
+    /* background-color: magenta; */
+  }
+  
+  .profit-title9 {
+    font-size: 12.5px;
+    font-weight: bold;
+    margin-top: -2.5px;
+  }
+  
+  .number04-box9 {
+    display: flex;
+    height: 22.5px;
+    width: 47.5px;
+    /* background-color: magenta; */
+    margin-left: auto;
+    font-size: 30px;;
+  }
+  
+  .count09 {
+    font-size: 22.5px;
+    margin-top: -1.5px;
+    font-weight: bold;
+    margin-left: -1.5px;
+  }
+  
+  .separator-line999 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: lightgrey;
+  }
+  
+  .body-container9 {
+    display: flex;
+    height: 400.5px;
+    width: 100%;
+    /* background-color: orange; */
+    margin-top: 15px;
+    flex-direction: column;
+  }
+
+  .date-rows-container9 {
+    height: 307.5px;
+    width: 1380px;
+    /* background-color: purple; */
+  }
+
+  .date-row19 {
+    display: flex;
+    height: 130.5px;
+    width: 1380px;
+    /* background-color: blue; */
+  }
+
+  .date-box109 {
+    display: flex;
+    height: 130.5px;
+    width: 171.42px;
+    border: 1px solid black;
+    /* background-color: green; */
+    border-radius: 18.75px; /* Half of the height */
+    overflow: hidden;
+    flex-direction: column;
+  }
+
+  .control-container109 {
+    display: flex;
+    height: 22.5px;
+    width: 156.42px;
+    /* background-color: pink; */
+    margin-left: 7.5px;
+    margin-top: 7.5px;
+  }
+
+  .day-num-box109 {
+    width: 50px;
+    height: 22.5px;
+    /* background-color: aqua; */
+  }
+
+  .day-num109 {
+    font-size: 12.5px;
+    margin-top: 4px;
+    font-weight: bold;
+    margin-left: -1px;
+  }
+
+  .cal-add-button109 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 54px;
+  }
+  
+  .cal-add-button109 > a {
+    text-decoration: none; /* Remove underline */
+    margin-top: 0.5px;
+  }
+
+  .cal-sub-button109 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 7.5px;
+  }
+  
+  .cal-sub-button109 > a {
+    text-decoration: none; /* Remove underline */
+    margin-bottom: 2.5px;
+  }
+
+  .box-1981 {
+    display: flex;
+    height: 93px;
+    width: 156.42px;
+    /* background-color: chartreuse; */
+    margin-left: 7.5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .box-1981-pic {
+    height: 70px;
+    width: 70px;
+    background-image: url("airj39.png");
+    background-size: contain;
+  }
+
+  .box-1981-text {
+    display: flex;
+    height: 23px;
+    width: 156.42px;;
+    /* background-color: orange; */
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .date-box19 {
+    height: 37.5px;
+    width: 171.42px;
+    border: 1px solid lightgrey;
+    /* background-color: green; */
+    border-radius: 18.75px; /* Half of the height */
+    overflow: hidden;
+    margin-left: 30px;
+  }
+
+  .control-container19 {
+    display: flex;
+    height: 22.5px;
+    width: 156.42px;
+    /* background-color: pink; */
+    margin-left: 7.5px;
+    margin-top: 7.5px;
+  }
+
+  .day-num-box19 {
+    width: 50px;
+    height: 22.5px;
+    /* background-color: aqua; */
+  }
+
+  .day-num19 {
+    font-size: 12.5px;
+    margin-top: 4px;
+    font-weight: bold;
+    margin-left: -1px;
+  }
+
+  .cal-add-button19 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 54px;
+  }
+  
+  .cal-add-button19 > a {
+    text-decoration: none; /* Remove underline */
+    margin-top: 0.5px;
+  }
+
+  .cal-sub-button19 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 7.5px;
+  }
+  
+  .cal-sub-button19 > a {
+    text-decoration: none; /* Remove underline */
+    margin-bottom: 2.5px;
+  }
+
+  .date-row29 {
+    display: flex;
+    height: 37.5px;
+    width: 1380px;
+    /* background-color: blue; */
+    margin-top: 30px;
+  }
+
+  .date-box029 {
+    height: 37.5px;
+    width: 171.42px;
+    border: 1px solid lightgrey;
+    /* background-color: green; */
+    border-radius: 18.75px; /* Half of the height */
+    overflow: hidden;
+  }
+
+  .control-container029 {
+    display: flex;
+    height: 22.5px;
+    width: 156.42px;
+    /* background-color: pink; */
+    margin-left: 7.5px;
+    margin-top: 7.5px;
+  }
+
+  .day-num-box029 {
+    width: 50px;
+    height: 22.5px;
+    /* background-color: aqua; */
+  }
+
+  .day-num029 {
+    font-size: 12.5px;
+    margin-top: 4px;
+    font-weight: bold;
+    margin-left: -1px;
+  }
+
+  .cal-add-button029 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 54px;
+  }
+  
+  .cal-add-button029 > a {
+    text-decoration: none; /* Remove underline */
+    margin-top: 0.5px;
+  }
+
+  .cal-sub-button029 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 7.5px;
+  }
+  
+  .cal-sub-button029 > a {
+    text-decoration: none; /* Remove underline */
+    margin-bottom: 2.5px;
+  }
+
+  .date-box29 {
+    height: 37.5px;
+    width: 171.42px;
+    border: 1px solid lightgrey;
+    /* background-color: green; */
+    border-radius: 18.75px; /* Half of the height */
+    overflow: hidden;
+    margin-left: 30px;
+  }
+
+  .control-container29 {
+    display: flex;
+    height: 22.5px;
+    width: 156.42px;
+    /* background-color: pink; */
+    margin-left: 7.5px;
+    margin-top: 7.5px;
+  }
+
+  .day-num-box29 {
+    width: 50px;
+    height: 22.5px;
+    /* background-color: aqua; */
+  }
+
+  .day-num29 {
+    font-size: 12.5px;
+    margin-top: 4px;
+    font-weight: bold;
+    margin-left: -1px;
+  }
+
+  .cal-add-button29 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 54px;
+  }
+  
+  .cal-add-button29 > a {
+    text-decoration: none; /* Remove underline */
+    margin-top: 0.5px;
+  }
+
+  .cal-sub-button29 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 7.5px;
+  }
+  
+  .cal-sub-button29 > a {
+    text-decoration: none; /* Remove underline */
+    margin-bottom: 2.5px;
+  }
+
+  .date-row39 {
+    display: flex;
+    height: 37.5px;
+    width: 1380px;
+    /* background-color: blue; */
+    margin-top: 30px;
+  }
+
+  .date-box039 {
+    height: 37.5px;
+    width: 171.42px;
+    border: 1px solid lightgrey;
+    /* background-color: green; */
+    border-radius: 18.75px; /* Half of the height */
+    overflow: hidden;
+  }
+
+  .control-container039 {
+    display: flex;
+    height: 22.5px;
+    width: 156.42px;
+    /* background-color: pink; */
+    margin-left: 7.5px;
+    margin-top: 7.5px;
+  }
+
+  .day-num-box039 {
+    width: 50px;
+    height: 22.5px;
+    /* background-color: aqua; */
+  }
+
+  .day-num039 {
+    font-size: 12.5px;
+    margin-top: 4px;
+    font-weight: bold;
+    margin-left: -1px;
+  }
+
+  .cal-add-button039 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 54px;
+  }
+  
+  .cal-add-button039 > a {
+    text-decoration: none; /* Remove underline */
+    margin-top: 0.5px;
+  }
+
+  .cal-sub-button039 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 7.5px;
+  }
+  
+  .cal-sub-button039 > a {
+    text-decoration: none; /* Remove underline */
+    margin-bottom: 2.5px;
+  }
+
+  .date-box39 {
+    height: 37.5px;
+    width: 171.42px;
+    border: 1px solid lightgrey;
+    /* background-color: green; */
+    border-radius: 18.75px; /* Half of the height */
+    overflow: hidden;
+    margin-left: 30px;
+  }
+
+  .control-container39 {
+    display: flex;
+    height: 22.5px;
+    width: 156.42px;
+    /* background-color: pink; */
+    margin-left: 7.5px;
+    margin-top: 7.5px;
+  }
+
+  .day-num-box39 {
+    width: 50px;
+    height: 22.5px;
+    /* background-color: aqua; */
+  }
+
+  .day-num39 {
+    font-size: 12.5px;
+    margin-top: 4px;
+    font-weight: bold;
+    margin-left: -1px;
+  }
+
+  .cal-add-button39 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 54px;
+  }
+  
+  .cal-add-button39 > a {
+    text-decoration: none; /* Remove underline */
+    margin-top: 0.5px;
+  }
+
+  .cal-sub-button39 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 7.5px;
+  }
+  
+  .cal-sub-button39 > a {
+    text-decoration: none; /* Remove underline */
+    margin-bottom: 2.5px;
+  }
+
+  .date-row49 {
+    display: flex;
+    height: 37.5px;
+    width: 1380px;
+    /* background-color: blue; */
+    margin-top: 30px;
+  }
+
+  .date-box049 {
+    height: 37.5px;
+    width: 171.42px;
+    border: 1px solid lightgrey;
+    /* background-color: green; */
+    border-radius: 18.75px; /* Half of the height */
+    overflow: hidden;
+  }
+
+  .control-container049 {
+    display: flex;
+    height: 22.5px;
+    width: 156.42px;
+    /* background-color: pink; */
+    margin-left: 7.5px;
+    margin-top: 7.5px;
+  }
+
+  .day-num-box049 {
+    width: 50px;
+    height: 22.5px;
+    /* background-color: aqua; */
+  }
+
+  .day-num049 {
+    font-size: 12.5px;
+    margin-top: 4px;
+    font-weight: bold;
+    margin-left: -1px;
+  }
+
+  .cal-add-button049 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 54px;
+  }
+  
+  .cal-add-button049 > a {
+    text-decoration: none; /* Remove underline */
+    margin-top: 0.5px;
+  }
+
+  .cal-sub-button049 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 7.5px;
+  }
+  
+  .cal-sub-button049 > a {
+    text-decoration: none; /* Remove underline */
+    margin-bottom: 2.5px;
+  }
+
+  .date-box49 {
+    height: 37.5px;
+    width: 171.42px;
+    border: 1px solid lightgrey;
+    /* background-color: green; */
+    border-radius: 18.75px; /* Half of the height */
+    overflow: hidden;
+    margin-left: 30px;
+  }
+
+  .control-container49 {
+    display: flex;
+    height: 22.5px;
+    width: 156.42px;
+    /* background-color: pink; */
+    margin-left: 7.5px;
+    margin-top: 7.5px;
+  }
+
+  .day-num-box49 {
+    width: 50px;
+    height: 22.5px;
+    /* background-color: aqua; */
+  }
+
+  .day-num49 {
+    font-size: 12.5px;
+    margin-top: 4px;
+    font-weight: bold;
+    margin-left: -1px;
+  }
+
+  .cal-add-button49 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 54px;
+  }
+  
+  .cal-add-button49 > a {
+    text-decoration: none; /* Remove underline */
+    margin-top: 0.5px;
+  }
+
+  .cal-sub-button49 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 7.5px;
+  }
+  
+  .cal-sub-button49 > a {
+    text-decoration: none; /* Remove underline */
+    margin-bottom: 2.5px;
+  }
+
+  .date-row59 {
+    display: flex;
+    height: 37.5px;
+    width: 1380px;
+    /* background-color: blue; */
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .date-box059 {
+    height: 37.5px;
+    width: 171.42px;
+    border: 1px solid lightgrey;
+    /* background-color: green; */
+    border-radius: 18.75px; /* Half of the height */
+    overflow: hidden;
+  }
+
+  .control-container059 {
+    display: flex;
+    height: 22.5px;
+    width: 156.42px;
+    /* background-color: pink; */
+    margin-left: 7.5px;
+    margin-top: 7.5px;
+  }
+
+  .day-num-box059 {
+    width: 50px;
+    height: 22.5px;
+    /* background-color: aqua; */
+  }
+
+  .day-num059 {
+    font-size: 12.5px;
+    margin-top: 4px;
+    font-weight: bold;
+    margin-left: -1px;
+  }
+
+  .cal-add-button059 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 54px;
+  }
+  
+  .cal-add-button059 > a {
+    text-decoration: none; /* Remove underline */
+    margin-top: 0.5px;
+  }
+
+  .cal-sub-button059 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 7.5px;
+  }
+  
+  .cal-sub-button059 > a {
+    text-decoration: none; /* Remove underline */
+    margin-bottom: 2.5px;
+  }
+
+  .date-box59 {
+    height: 37.5px;
+    width: 171.42px;
+    border: 1px solid lightgrey;
+    /* background-color: green; */
+    border-radius: 18.75px; /* Half of the height */
+    overflow: hidden;
+    margin-left: 30px;
+  }
+
+  .control-container59 {
+    display: flex;
+    height: 22.5px;
+    width: 156.42px;
+    /* background-color: pink; */
+    margin-left: 7.5px;
+    margin-top: 7.5px;
+  }
+
+  .day-num-box59 {
+    width: 50px;
+    height: 22.5px;
+    /* background-color: aqua; */
+  }
+
+  .day-num59 {
+    font-size: 12.5px;
+    margin-top: 4px;
+    font-weight: bold;
+    margin-left: -1px;
+  }
+
+  .cal-add-button59 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 54px;
+  }
+  
+  .cal-add-button59 > a {
+    text-decoration: none; /* Remove underline */
+    margin-top: 0.5px;
+  }
+
+  .cal-sub-button59 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 17.5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 7.5px;
+  }
+  
+  .cal-sub-button59 > a {
+    text-decoration: none; /* Remove underline */
+    margin-bottom: 2.5px;
+  }
+  
+  .footer-container9 {
+    /* background-color: pink; */
+    height: 37.5px;
+  }
+  
+  .retailor-container9 {
+    height: 22.5px;
+    /* background-color: aqua; */
+    margin-top: 15px;
+    /* border: 0.5px solid black; */
+  }
+  
+  .nike9 {
+    height: 15px;
+    margin-right: 15px;
+    margin-top: 4px;
+  }
+  
+  .adidas9 {
+    height: 15px;
+    margin-right: 15px;
+    /* margin-left: 15px; */
+    margin-top: 3.5px;
+  }
+  
+  .jordan9 {
+    height: 15px;
+    margin-right: 15px;
+    margin-top: 3.5px;
+  }
+  
+  .yeezy9 {
+    height: 15px;
+    margin-right: 15px;
+    margin-top: 3.5px;
+  }
+  
+  .new-balance9 {
+    height: 15px;
+    margin-top: 7.5px;
+  } 
+  
+  .stockx9 {
+    width: auto;
+    height: 15px;
+    position: absolute; 
+    right: 0;
+    margin-top: 7.5px;
+    /* margin-right: 15px; */
+  }

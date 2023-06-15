@@ -1,0 +1,628 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .main-container6401 {
+    /* background-color: violet; */
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 650px;
+    position: relative;
+  }
+  
+  .user-container6401 {
+    background-color: black;
+    height: 22.5px;
+    position: relative;
+    border: 1px solid black;
+  }
+  
+  .user-info-container6401 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 4px 15px;
+  }
+  
+  .user-login6401 {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12.5px;
+    margin: 0;
+  }
+  
+  .links-container6401 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .update-link6401 {
+    text-decoration: none;
+    color: white; /* Set the initial color to grey */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12.5px;
+    transition: color 0.25s; /* Add a transition property for smooth color change */
+  }
+  
+  .update-link6401:hover {
+    color: lightgrey; /* Change the color to black when the link is hovered */
+  }
+  
+  .signout-link6401 {
+    text-decoration: none;
+    color: white; /* Set the initial color to grey */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12.5px;
+    transition: color 0.25s; /* Add a transition property for smooth color change */
+  }
+  
+  .signout-link6401:hover {
+    color: lightgrey; /* Change the color to black when the link is hovered */
+  }
+  
+  .separator6401 {
+    width: 0.5px;
+    height: 15px;
+    background-color: white;
+    margin: 0px 15px;
+  }
+  
+  .content-container6 {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header-container6 {
+    /* background-color: red; */
+    height: 105px;
+    margin-top: 15px;
+  }
+  
+  .controller-container6 {
+    /* background-color: lightblue; */
+    height: 90px;
+    position: relative;
+  }
+  
+  .logo6 {
+    display: flex;
+    max-width: 65.5px;
+    max-height: 65.5px;
+    width: auto;
+    height: auto;
+    margin: auto;
+  }
+  
+  .link-container6 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 13px;
+  }
+  
+  .link6 {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 30px;
+    font-size: 12.5px;
+    font-weight: bold;
+  }
+  
+  .link66 {
+    text-decoration: none;
+    color: lightgrey; /* Set the initial color to grey */
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 30px;
+    font-size: 12.5px;
+    font-weight: bold;
+    transition: color 0.25s; /* Add a transition property for smooth color change */
+  }
+  
+  .link66:hover {
+    color: black; /* Change the color to black when the link is hovered */
+  }
+  
+  .link666 {
+    text-decoration: none;
+    color: lightgrey; /* Set the initial color to grey */
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 30px;
+    font-size: 12.5px;
+    font-weight: bold;
+    transition: color 0.25s; /* Add a transition property for smooth color change */
+  }
+  
+  .link666:hover {
+    color: black; /* Change the color to black when the link is hovered */
+  }
+  
+  .separator-line66 {
+    height: 1px;
+    background-color: lightgrey;
+  }
+  
+  .middle-container6 {
+    display: flex;
+    flex-direction: column;
+    height: 467.5px;
+    width: 100%;
+    /* background-color: green; */
+  }
+  
+  .dashboard-container6 {
+    display: flex;
+    flex-direction: column;
+    height: 52.5px;
+    width: 100%;
+    /* background-color: blue; */
+    position: relative; 
+  }
+  
+  .stats-container6 {
+    display: flex;
+    height: 22.5px;
+    width: 100%;
+    /* background-color: aqua; */
+    margin-top: 15px;
+  }
+  
+  .invent6 {
+    display: flex;
+    height: 22.5px;
+    width: 135px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin-left: auto;
+  }
+  
+  .invent-title-box6 {
+    display: flex;
+    height: 9px;
+    width: 72.5px;
+    /* background-color: magenta; */
+  }
+  
+  .invent-title6 {
+    font-size: 12.5px;
+    font-weight: bold;
+    margin-top: -2.5px;
+  }
+  
+  .number01-box6 {
+    display: flex;
+    height: 22.5px;
+    width: 47.5px;
+    /* background-color: magenta; */
+    margin-left: auto;
+    font-size: 30px;
+  }
+  
+  .count016 {
+    font-size: 22.5px;
+    margin-top: -1.5px;
+    font-weight: bold;
+    margin-left: -1.5px;
+  }
+  
+  .stats-separator016 {
+    background-color: black;
+    width: 0.5px;
+    height: 22.5px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  .value6 {
+    display: flex;
+    height: 22.5px;
+    width: 105px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    /* margin-left: auto; */
+  }
+  
+  .value-title-box6 {
+    display: flex;
+    height: 9px;
+    width: 41px;
+    /* background-color: magenta; */
+  }
+  
+  .value-title6 {
+    font-size: 12.5px;
+    font-weight: bold;
+    margin-top: -2.5px;
+  }
+  
+  .number02-box6 {
+    display: flex;
+    height: 22.5px;
+    width: 47.5px;
+    /* background-color: magenta; */
+    margin-left: auto;
+    font-size: 30px;
+  }
+  
+  .count026 {
+    font-size: 22.5px;
+    margin-top: -1.5px;
+    font-weight: bold;
+    margin-left: -1.5px;
+  }
+  
+  .stats-separator026 {
+    background-color: black;
+    width: 0.5px;
+    height: 22.5px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  .resold6 {
+    display: flex;
+    height: 22.5px;
+    width: 114px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    /* margin-left: auto; */
+  }
+  
+  .resold-title-box6 {
+    display: flex;
+    height: 9px;
+    width: 51.5px;
+    /* background-color: magenta; */
+  }
+  
+  .resold-title6 {
+    font-size: 12.5px;
+    font-weight: bold;
+    margin-top: -2.5px;
+  }
+  
+  .number03-box6 {
+    display: flex;
+    height: 22.5px;
+    width: 47.5px;
+    /* background-color: magenta; */
+    margin-left: auto;
+    font-size: 30px;
+  }
+  
+  .count036 {
+    font-size: 22.5px;
+    margin-top: -1.5px;
+    font-weight: bold;
+    margin-left: -1.5px;
+  }
+  
+  .stats-separator036 {
+    background-color: black;
+    width: 0.5px;
+    height: 22.5px;
+    margin-left: 15px;
+  }
+  
+  .profit6 {
+    display: flex;
+    height: 22.5px;
+    width: 109px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    /* margin-left: auto; */
+    margin-left: 15px;
+  }
+  
+  .profit-title-box6 {
+    display: flex;
+    height: 9px;
+    width: 46px;
+    /* background-color: magenta; */
+  }
+  
+  .profit-title6 {
+    font-size: 12.5px;
+    font-weight: bold;
+    margin-top: -2.5px;
+  }
+  
+  .number04-box6 {
+    display: flex;
+    height: 22.5px;
+    width: 47.5px;
+    /* background-color: magenta; */
+    margin-left: auto;
+    font-size: 30px;;
+  }
+  
+  .count046 {
+    font-size: 22.5px;
+    margin-top: -1.5px;
+    font-weight: bold;
+    margin-left: -1.5px;
+  }
+  
+  .separator-line666 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: lightgrey;
+  }
+  
+  .body-container6 {
+    display: flex;
+    height: 400.5px;
+    width: 100%;
+    /* background-color: orange; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+.add-sneaker-frame06 {
+  height: 352.5px;
+  width: 826px;
+  display: flex;
+  /* background-color: blueviolet; */
+}
+
+.add-sneaker-photo-box06 {
+  display: flex;
+  height: 350.5px;
+  width: 352.5px;
+  /* background-color: green; */
+  border: 1px dashed black;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-sneaker-photo-title06 {
+  font-size: 17.5px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.separator-line06666 {
+  margin-left: 60px;
+  margin-right: 60px;
+  width: 0.5px;
+  height: 352.5px;
+  background-color: black;
+}
+
+.signup-frame06 {
+  height: 350.5px;
+  width: 355px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: red; */
+  border: 0.5px solid black;
+}
+
+.signup-container06 {
+  height: 409px;
+  width: 325px;
+  display: flex;
+  flex-direction: column;
+  /* background-color: white; */
+  align-items: center; 
+  justify-content: center;
+}
+
+.logo-container06 {
+  height: 45px;
+  width: 325px;
+  /* background-color: blue; */
+  top: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.logo60 {
+  height: 45px;
+  width: auto;
+}
+
+.details-container06 {
+  height: 115.5px;
+  width: 325px;
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.dropdown06 {
+  height: 26px;
+  background-color: white;
+  color: black;
+  border: 0.5px solid black;
+  padding: 5px;
+  margin-bottom: 7.5px;
+}
+
+.fname-box06 {
+  height: 15px;
+  background-color: white;
+  color: black;
+  border: 0.5px solid black;
+  padding: 5px;
+  margin-bottom: 7.5px;
+}
+
+.fname-box06::placeholder {
+  color: black;
+  font-size: 12.5px;
+}
+
+.sname-box06 {
+  height: 15px;
+  background-color: white;
+  color: black;
+  border: 0.5px solid black;
+  padding: 5px;
+  margin-bottom: 7.5px;
+}
+
+.sname-box06::placeholder {
+  color: black;
+  font-size: 12.5px;
+  padding-left: 2.5px;
+}
+
+.email-box06 {
+  height: 15px;
+  background-color: white;
+  color: black;
+  border: 0.5px solid black;
+  padding: 5px;
+  margin-bottom: 7.5px;
+}
+
+.email-box06::placeholder {
+  color: black;
+  font-size: 12.5px;
+}
+
+.other-box06 {
+  height: 15px;
+  background-color: white;
+  color: black;
+  border: 0.5px solid black;
+  padding: 5px;
+  padding-left: 2.5px;
+}
+
+.other-box06::placeholder {
+  color: black;
+  font-size: 12.5px;
+  padding-left: 2.5px;
+}
+
+.password-container06 {
+  height: 59px;
+  width: 325px;
+  /* background-color: purple; */
+  display: flex;
+  flex-direction: column;
+  margin-top: 26px;
+}
+
+.password-box06 {
+  height: 15px;
+  background-color: white;
+  color: black;
+  border: 0.5px solid black;
+  padding: 5px;
+  margin-bottom: 7.5px;
+}
+
+.password-box06::placeholder {
+  color: black;
+  font-size: 12.5px;
+  padding-left: 2.5px;
+}
+
+.vpassword-box06 {
+  height: 15px;
+  background-color: white;
+  color: black;
+  border: 0.5px solid black;
+  padding: 5px;
+}
+
+.vpassword-box06::placeholder {
+  color: black;
+  font-size: 12.5px;
+}
+
+.button-container06 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  margin-top: 30px;
+}
+
+.separator6 {
+  width: 0.5px;
+  height: 30px;
+  background-color: black;
+  margin: 0px 15px;
+}
+
+.link-button06 {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 12.5px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  cursor: pointer;
+}
+  .footer-container6 {
+    /* background-color: pink; */
+    height: 37.5px;
+  }
+  
+  .retailor-container6 {
+    height: 22.5px;
+    /* background-color: aqua; */
+    margin-top: 15px;
+    /* border: 0.5px solid black; */
+  }
+  
+  .nike6 {
+    height: 15px;
+    margin-right: 15px;
+    margin-top: 4px;
+  }
+  
+  .adidas6 {
+    height: 15px;
+    margin-right: 15px;
+    /* margin-left: 15px; */
+    margin-top: 3.5px;
+  }
+  
+  .jordan6 {
+    height: 15px;
+    margin-right: 15px;
+    margin-top: 3.5px;
+  }
+  
+  .yeezy6 {
+    height: 15px;
+    margin-right: 15px;
+    margin-top: 3.5px;
+  }
+  
+  .new-balance6 {
+    height: 15px;
+    margin-top: 7.5px;
+  } 
+  
+  .stockx6 {
+    width: auto;
+    height: 15px;
+    position: absolute; 
+    right: 0;
+    margin-top: 7.5px;
+    /* margin-right: 15px; */
+  }
